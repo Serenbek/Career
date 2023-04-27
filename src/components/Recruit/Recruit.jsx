@@ -1,7 +1,7 @@
 import React from 'react'
 import css from './Recruit.module.scss'
-import mainImg from '../../../assets/recruitImgs/recruitMainImg.svg'
-import file from '../../../assets/recruitImgs/fileImg.svg'
+import mainImg from '../../assets/recruitImgs/recruitMainImg.svg'
+import file from '../../assets/recruitImgs/fileImg.svg'
 
 
 function Recruit() {

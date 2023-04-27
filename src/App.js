@@ -1,6 +1,6 @@
 import "./App.scss";
 import HomePage from "./pages/HomePage";
-import Recruit from './components/Main/Recruit/Recruit'
+import Recruit from './components/Recruit/Recruit'
 function App() {
   return (
     <div >
