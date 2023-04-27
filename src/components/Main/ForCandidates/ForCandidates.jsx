@@ -15,7 +15,7 @@ function ForCandidates(props) {
                     </div>
                     <p>Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Morbi mattis ullamcorper velit.</p>
                 </div>
-                <div className={scss.bottom_connent}>
+                <div className={scss.bottom_content}>
                     {
                         ForCandidatesConst.map((item, index) => (
                             <ForCandidatesCard key={`${item.image}_${index}`} {...item} />
