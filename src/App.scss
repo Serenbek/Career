@@ -1,8 +1,8 @@
 @import "../src/styles/variables.scss";
 
-.App {
-  background: $blue;
-}
+// .App {
+//   background: $blue;
+// }
 
 .title1 {
   font-family: "Barlow";
@@ -22,3 +22,8 @@
   text-align: center;
   color: $orange;
 }
+
+button{
+  border: none;
+}
+
