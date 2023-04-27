@@ -7,14 +7,14 @@
     padding: 120px 0px 80px;
     gap: 80px;
 
-    .header {
+    .top_content {
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 0px;
         gap: 24px;
 
-        .header__title {
+        .top_content__title {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -49,7 +49,7 @@
         }
     }
 
-    .footer {
+    .bottom_connent {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -78,8 +78,9 @@
 
 @media (max-width: 912px) {
     .candidates{
-        .footer{
+        .bottom_connent{
             flex-wrap: wrap;
+            justify-content: space-evenly;
         }
     }
 }
@@ -88,15 +89,14 @@
     .candidates {
         padding: 64px 0px;
         gap: 64px;
-        .header{
+        .top_content{
             .header__title{
                 gap: 16px;
             }
         }
-        .footer{
+        .bottom_connent{
             flex-wrap: wrap;
             gap: 64px;
-            justify-content: space-evenly;
         }
     }
 }

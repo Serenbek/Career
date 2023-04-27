@@ -8,14 +8,14 @@ function ForCandidates(props) {
     return (
         <div className='container'>
             <div className={scss.candidates}>
-                <div className={scss.header}>
-                    <div className={scss.header__title}>
+                <div className={scss.top_content}>
+                    <div className={scss.top_content__title}>
                         <p>For Candidates</p>
                         <h1>Explore Thousands of Jobs</h1>
                     </div>
                     <p>Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Morbi mattis ullamcorper velit.</p>
                 </div>
-                <div className={scss.footer}>
+                <div className={scss.bottom_connent}>
                     {
                         ForCandidatesConst.map((item, index) => (
                             <ForCandidatesCard key={`${item.image}_${index}`} {...item} />
