@@ -9,6 +9,15 @@ a {
   text-decoration: none;
 }
 
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+}
+
 body {
   font-family: "Barlow", "Poppins", sans-serif;
 }
