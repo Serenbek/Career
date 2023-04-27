@@ -1,0 +1,102 @@
+@import '../../../styles/variables.scss';
+
+.candidates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0px 80px;
+    gap: 80px;
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+
+        .header__title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0px;
+            gap: 24px;
+
+            p {
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 20px;
+                text-align: center;
+                text-transform: uppercase;
+                color: $main-black-light;
+            }
+
+            h1 {
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 64px;
+                text-align: center;
+                color: $main-black-light02;
+            }
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            text-align: center;
+            color: $main-black-light;
+
+        }
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+        width: 100%;
+    }
+
+    button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 11px 22px;
+        gap: 8px;
+        width: 196px;
+        height: 48px;
+        background: $orange;
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 26px;
+        color: $white;
+    }
+}
+
+@media (max-width: 912px) {
+    .candidates{
+        .footer{
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .candidates {
+        padding: 64px 0px;
+        gap: 64px;
+        .header{
+            .header__title{
+                gap: 16px;
+            }
+        }
+        .footer{
+            flex-wrap: wrap;
+            gap: 64px;
+            justify-content: space-evenly;
+        }
+    }
+}

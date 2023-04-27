@@ -1,10 +1,11 @@
 import "./App.scss";
-import Recruit from "./components/Recruit/Recruit";
-
+import HomePage from "./pages/HomePage";
+import Recruit from '../src/components/Recruit/Recruit'
 function App() {
   return (
     <div >
         <Recruit />
+        <HomePage/>
       </div>
   );
 }
