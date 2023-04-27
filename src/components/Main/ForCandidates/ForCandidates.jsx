@@ -23,7 +23,7 @@ function ForCandidates(props) {
                     }
                 </div>
                 <button>
-                    <img src={btn_img} alt="" />
+                    <img src={btn_img} alt="image" />
                     Upload Your CV
                 </button>
             </div>
