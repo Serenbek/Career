@@ -1,0 +1,64 @@
+@import '../../../../styles//variables.scss';
+
+.card {
+    border: 1px solid rgba(145, 158, 171, 0.24);
+    border-radius: 16px;
+    width: 230px;
+    height: 230px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+    &:hover {
+        background: #FFFFFF;
+        box-shadow: -24px 24px 72px -8px rgba(145, 158, 171, 0.24);
+        border: none;
+        .card__img {
+            background: #FA541C;
+            border-radius: 100px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+    }
+
+    }
+
+
+    .card__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 4px;
+
+        h1 {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 28px;
+            color: $main-black-light02;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 26px;
+            color: $main-black-light;
+        }
+    }
+}
+
+@media (max-width: 912px) {
+    .card {
+        width: 46%;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        display: flex;
+                width: 100%;
+    }
+}
+
