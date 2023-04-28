@@ -1,6 +1,6 @@
 import icon1 from '../assets/images/HotCategories/finance.svg'
 import icon2 from '../assets/images/HotCategories/marketing.svg'
-import icon3 from '../assets/images/HotCategories/design.svg'
+// import icon3 from '../assets/images/HotCategories/design.svg'
 import icon4 from '../assets/images/HotCategories/development.svg'
 import icon5 from '../assets/images/HotCategories/IT.svg'
 import icon6 from '../assets/images/HotCategories/customer.svg'
@@ -19,7 +19,7 @@ export const HotCategoriesConst =[
         disc: '123 jobs'
     },
     {
-        icon: icon3,
+        icon: icon2,
         title: 'Design',
         disc: '123 jobs'
     },

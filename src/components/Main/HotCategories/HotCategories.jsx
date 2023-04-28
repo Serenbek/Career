@@ -18,12 +18,14 @@ function HotCategories(props) {
                         ))
                     }
                 </div>
+                <div className={scss.button}>
                 <ClearButton>
                     <>
                     View All Categories
                     <img src={arrow} alt="icon" />
                     </>
                 </ClearButton>
+                </div>
             </div>
         </div>
     );
