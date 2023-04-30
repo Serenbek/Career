@@ -1,10 +1,10 @@
 import React from 'react'
-import css from './jobBlock.module.scss'
-import mainImg from '../../assets/images/recruitImgs/recruitMainImg.svg'
-import file from '../../assets/images/recruitImgs/fileImg.svg'
+import css from './PostJobBlock.module.scss'
+import mainImg from '../../../assets/images/recruitImgs/recruitMainImg.svg'
+import file from '../../../assets/images/recruitImgs/fileImg.svg'
 
 
-function jobBlock() {
+function PostJobBlock() {
     return (
         <div className={css.background}>
             <div className='container'>
@@ -25,4 +25,4 @@ function jobBlock() {
     )
 }
 
-export default jobBlock
+export default PostJobBlock

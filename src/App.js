@@ -1,13 +1,13 @@
 import "./App.scss";
-import Recruit from "./components/jobBlock/Recruit";
-import ClientBlock from "./components/ClientBlock/ClientBlock";
+import ClientBlock from "./components/Main/ClientBlock/ClientBlock";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <div >
-      {/* <Recruit /> */}
-      <ClientBlock />
-    </div>
+        {/* <HomePage/> */}
+        <ClientBlock />
+      </div>
   );
 }
 
