@@ -2,7 +2,7 @@
 
 .background {
     
-    background-image: url('../../assets/recruitImgs/Background.svg');
+    background-image: url('../../assets/images/recruitImgs/Background.svg');
     background-repeat: no-repeat;
     background-size: cover;
     .wrapper {
@@ -19,7 +19,7 @@
             text-align: center;
             padding: 40px 0;
         }
-        .mainImg{
+        .main__img{
             @media only screen and (max-width:575px){
                 display: none;
             }
@@ -50,7 +50,7 @@
                 color: $orange;
             }
 
-            .extraInfo {
+            .extra__info{
                 font-family: 'Poppins';
                 font-style: normal;
                 font-weight: 400;

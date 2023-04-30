@@ -1,0 +1,54 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 80px;
+    padding: 50px;
+    @media only screen and (min-width:580px) and (max-width:1000px){
+        
+    }
+    .headline{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        h1{
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 64px;
+            @media only screen and (min-width:580px) and (max-width:1000px){
+        
+            }
+        }
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: #637381; 
+        }
+    }
+    .images{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .card{
+            padding: 24px 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 172px;
+            height: 80px;
+            border: 1px solid rgba(145, 158, 171, 0.24);
+            border-radius: 16px;
+            @media only screen and (min-width: 900px) and (max-width:1400px){
+                width: 97px;
+                height: 80px;
+
+            }
+            
+        }
+    }
+}
