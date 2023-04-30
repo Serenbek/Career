@@ -8,6 +8,15 @@ function App() {
       {/* <Recruit /> */}
       <ClientBlock />
     </div>
+
+import HomePage from "./pages/HomePage";
+import Recruit from './components/Recruit/Recruit'
+function App() {
+  return (
+    <div >
+        <Recruit />
+        <HomePage/>
+      </div>
   );
 }
 

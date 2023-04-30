@@ -1,0 +1,45 @@
+@import "../../../styles/variables.scss";
+
+.My__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 22px;
+  gap: 10px;
+  background: $orange;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  color: $white;
+}
+
+.My__btn_wide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 104px;
+  gap: 10px;
+  background: $orange;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  color: $white;
+}
+
+.My__btn_clear {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 22px;
+  gap: 8px;
+  border: 1px solid rgba(145, 158, 171, 0.32);
+  background-color: rgba(0, 0, 0, 0 );
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  color: $main-black-light02;
+}
