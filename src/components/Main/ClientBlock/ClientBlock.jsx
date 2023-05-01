@@ -18,29 +18,29 @@ function ClientBlock() {
                     </div>
                     <div className={css.images}>
                         <div className={css.card}>
-                            <img src={spotify} alt="" />
+                            <img src={spotify} alt="icon spotify" />
                         </div>
                         <div className={css.card}>
-                            <img src={slack} alt="" />
+                            <img src={slack} alt="icon slack" />
                         </div>
                         <div className={css.card}>
-                            <img src={netflix} alt="" />
+                            <img src={netflix} alt="icon netflix" />
                         </div>
                         <div className={css.card}>
-                            <img src={heroku} alt="" />
+                            <img src={heroku} alt="icon heroku" />
                         </div>
                         <div className={css.card}>
-                            <img src={vimeo} alt="" />
+                            <img src={vimeo} alt="icon vimeo" />
                         </div>
                         <div className={css.card}>
-                            <img src={airbnb} alt="" />
+                            <img src={airbnb} alt="icon airbnb" />
                         </div>
                         <div className={css.extra}>
                             <div className={css.card__none}>
-                                <img src={spotify} alt="" />
+                                <img src={spotify} alt="icon vimeo" />
                             </div>
                             <div className={css.card__none}>
-                                <img src={slack} alt="" />
+                                <img src={slack} alt="icon airbnb" />
                             </div>
                         </div>
                     </div>

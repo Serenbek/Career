@@ -1,12 +1,14 @@
 import "./App.scss";
-import ClientBlock from "./components/Main/ClientBlock/ClientBlock";
+import DownloadAppBlock from "./components/Main/DownloadAppBlock/DownloadAppBlock";
+import GetBlockJob from "./components/Main/GetBlockJob/GetBlockJob";
 import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <div >
-        {/* <HomePage/> */}
-        <ClientBlock />
+        <HomePage/>
+        {/* <DownloadAppBlock /> */}
+        {/* <GetBlockJob /> */}
       </div>
   );
 }
