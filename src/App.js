@@ -1,11 +1,14 @@
 import "./App.scss";
+import DownloadAppBlock from "./components/Main/DownloadAppBlock/DownloadAppBlock";
+import GetBlockJob from "./components/Main/GetBlockJob/GetBlockJob";
 import HomePage from "./pages/HomePage";
-import Recruit from './components/Recruit/Recruit'
+
 function App() {
   return (
     <div >
-        <Recruit />
         <HomePage/>
+        {/* <DownloadAppBlock /> */}
+        {/* <GetBlockJob /> */}
       </div>
   );
 }
