@@ -9,22 +9,19 @@ a {
   text-decoration: none;
 }
 
-button {
+button, input {
   outline: none;
   border: none;
   cursor: pointer;
 }
 
-input {
-  outline: none;
-}
 
 body {
   font-family: "Barlow", "Poppins", sans-serif;
 }
 
 .container {
-  width: 80%;
+  padding: 0 144px;
   margin: 0 auto;
 }
 

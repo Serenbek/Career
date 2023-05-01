@@ -2,12 +2,14 @@ import React from 'react'
 import css from './Recruit.module.scss'
 import mainImg from '../../assets/recruitImgs/recruitMainImg.svg'
 import file from '../../assets/recruitImgs/fileImg.svg'
+import Header from '../Header/Header'
 
 
 function Recruit() {
     return (
         <div className={css.background}>
             <div className='container'>
+                <Header/>
                 <div className={css.wrapper}>
                     <div className={css.left}>
                         <p className={css.info}>FOR RECRUITERS</p>

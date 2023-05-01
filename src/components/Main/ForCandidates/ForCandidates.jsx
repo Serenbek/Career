@@ -1,7 +1,7 @@
 import React from 'react';
 import scss from './ForCandidates.module.scss'
 import btn_img from '../../../assets/images/ForCandidates/btn_img.svg'
-import ForCandidatesCard from './ForCandidatesCard/ForCandidatesCard';
+import ForCandidatesCard from './ForCandidatesCard/ForCanditades';
 import { ForCandidatesConst } from '../../../constants/ForCandidatesConst'
 import MyButtonWide from '../../UI/Buttons/MyButtonWide';
 import MyButton from '../../UI/Buttons/MyButton';
