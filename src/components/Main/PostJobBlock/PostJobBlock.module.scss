@@ -1,0 +1,95 @@
+@import '../../../styles/variables.scss';
+
+.background {
+    
+    background-image: url('../../../assets/images/recruitImgs/Background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        @media only screen and (max-width:575px){
+            text-align: center;
+            padding: 79px 0 90px 0;
+        }
+        @media only screen and (min-width:580px) and (max-width:1000px){
+            flex-direction: column;
+            text-align: center;
+            padding: 40px 0;
+        }
+        .main__img{
+            @media only screen and (max-width:575px){
+                display: none;
+            }
+            @media only screen and (min-width:580px) and (max-width:1000px){
+                margin-top: 30px;
+            }
+        }
+        .left {
+            display: flex;
+            flex-direction: column;
+            gap: 27px;
+            width: 466px;
+            @media only screen and (max-width:575px){
+                width: 100%;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+            }
+            @media only screen and (min-width:580px) and (max-width:1000px){
+                text-align: center;
+            }
+            .info {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 20px;
+                color: $orange;
+            }
+
+            .extra__info{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                color: $white;
+                opacity: 0.72;
+            }
+
+            h1 {
+                font-family: 'Barlow';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 64px;
+                color: $white;
+                @media only screen and (max-width:575px){
+                    font-size: 32px;
+                    line-height: 42px;
+                }
+                
+            }
+
+            button {
+                display: flex;
+                align-items: center;
+                padding: 11px 22px;
+                background-color: $orange;
+                color: $white;
+                border: none;
+                justify-content: center;
+                gap: 8px;
+                width: 155px;
+                height: 48px;
+                border-radius: 8px;
+                @media only screen and (min-width:580px) and (max-width:1000px){
+                    margin-left: 145px;
+                }
+            }
+        }
+    }
+}

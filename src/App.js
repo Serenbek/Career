@@ -1,7 +1,7 @@
 import "./App.scss";
 import HomePage from "./pages/HomePage";
-import Recruit from './components/Recruit/Recruit'
 import useTheme from "./hooks/useTheme";
+
 
 
 function App() {
@@ -9,7 +9,6 @@ function App() {
 
   return (
       <div className={isDark ? "dark" : ''}>
-        <Recruit />
         <HomePage />
       </div>
   );

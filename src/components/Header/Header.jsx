@@ -9,7 +9,7 @@ import moon from "../../assets/icon/free-icon-switch-786486.png";
 import burgerDark from "../../assets/icon/burger-menu-svgrepo-com.svg";
 import burger from "../../assets/icon/burgerwhite.svg";
 import cn from "classnames";
-import ModalLogin from "../ModalLogin/ModalLogin";
+import ModalLogin from "./ModalLogin/ModalLogin";
 import { useDispatch } from "react-redux";
 import {switchTheme} from '../../redux/slices/ThemeSlice'
 import useTheme from "../../hooks/useTheme";
@@ -19,17 +19,16 @@ const lngs = {
   en: { nativeName: "Eng" },
   ru: { nativeName: "Rus" },
 };
-
 function Header() {
   const { t, i18n } = useTranslation();
-const [openLog, setOpenLog] = useState(false);
+  const [openLog, setOpenLog] = useState(false);
+  console.log(openLog)
 
   const [isOpen, setIsOpen] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
 
 const isDark = useTheme()
 const dispatch = useDispatch();
-console.log(isDark)
 
   useEffect(() => {
     setIsMounted(true);
