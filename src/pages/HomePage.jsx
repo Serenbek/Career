@@ -6,15 +6,17 @@ import ClientBlock from "../components/Main/ClientBlock/ClientBlock";
 import DownloadAppBlock from "../components/Main/DownloadAppBlock/DownloadAppBlock";
 import GetBlockJob from "../components/Main/GetBlockJob/GetBlockJob";
 
+
 function HomePage(props) {
     return (
         <div>
+            <PostJobBlock />
             <ForCandidates/>
             <HotCategories/>
             <ClientBlock />
-            <PostJobBlock />
             <DownloadAppBlock/>
             <GetBlockJob />
+
         </div>
     );
 }
