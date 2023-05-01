@@ -2,10 +2,15 @@ import "./App.scss";
 
 import HomePage from "./pages/HomePage";
 
+import useTheme from "./hooks/useTheme";
+
+
 function App() {
+  const isDark = useTheme()
+
   return (
-    <div >
-        <HomePage/>
+      <div className={isDark ? "dark" : ''}>
+        <HomePage />
       </div>
   );
 }
