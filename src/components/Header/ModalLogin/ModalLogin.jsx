@@ -10,15 +10,15 @@ import face from "../../../assets/icon/facebook.svg";
 import insta from "../../../assets/icon/insta.svg";
 import IN from "../../../assets/icon/in.svg";
 import twitter from "../../../assets/icon/twitter.svg";
-import { useSelector } from "react-redux";
+import useTheme from "../../../hooks/useTheme";
 
 const ModalLogin = ({setOpenLog, openLog}) => {
-  const isDark = useSelector((state)=> state.darkMode.theme)
+  const isDark = useTheme()
   const { t } = useTranslation();
   return (
     <div
       className={cn(css.wrapper_log, {
-        card_tour: isDark,
+      dark: isDark,
       })}
     >
       <h3>

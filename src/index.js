@@ -9,6 +9,7 @@ import { RingLoader } from 'react-spinners';
 import { store } from './redux/store'
 import { Provider } from 'react-redux'
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   //<React.StrictMode>
@@ -18,11 +19,11 @@ root.render(
       loading
       size={200} />}>
       <Trans i18nKey=''>
-        <BrowserRouter>
-          <App />
+        <BrowserRouter >
+            <App />
         </BrowserRouter>
       </Trans>
     </React.Suspense>
-  </Provider> 
+  </Provider>
   //</React.StrictMode >
 );
