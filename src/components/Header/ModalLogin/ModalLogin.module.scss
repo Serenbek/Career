@@ -1,0 +1,124 @@
+@import '../../../styles/variables.scss';
+
+
+.card_dark{
+	background-color: $main-black-light02;
+}
+.wrapper_log {
+	border: solid 5px rgb(21, 67, 97);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 20px;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -moz-fit-content;
+    width: 440px;
+    background-color: rgb(60, 63, 112);
+    position: absolute;
+    left: 36%;
+    top: 10%;
+    z-index: 1;
+	h3 {
+		font-family: "Raleway", sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		width: 100%;
+		font-size: 22px;
+		line-height: 28px;
+		color: #919eab;
+		position: relative;
+text-align: center;
+		button {
+			position: absolute;
+			color: #22b8cf;
+			font-size: 24px;
+			border: #484a4c solid 1px;
+			width: fit-content;
+			height: fit-content;
+			background-color: white;
+			top: -22px;
+			right: -22px;
+
+			&:hover {
+				color: #4ae0f7;
+			}
+		}
+	}
+
+	input {
+		border: #919eab solid 1px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		padding: 5px 0px 0px 10px;
+		gap: 8px;
+		width: 271px;
+		height: 48px;
+		border-radius: 8px;
+		font-family: "Raleway", sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 28px;
+		color: #919eab;
+		background: #f9fafb;
+	}
+
+	button {
+		font-family: "Raleway", sans-serif;
+		font-style: normal;
+		font-weight: 900;
+		font-size: 16px;
+		line-height: 28px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding: 6px 12px;
+		gap: 8px;
+		width: 271px;
+		height: 48px;
+		background: #22b8cf;
+		border: 1px solid rgba(34, 184, 207, 0.48);
+		border-radius: 8px;
+	}
+
+	p {
+		position: relative;
+		z-index: 21;
+
+		letter-spacing: 4px;
+
+		&::before {
+			content: "";
+			width: 61px;
+			display: block;
+			border-bottom: 1px solid rgb(78, 77, 77);
+			position: absolute;
+			top: 9px;
+			left: -74px;
+		}
+
+		&::after {
+			content: "";
+			width: 61px;
+			display: block;
+			border-bottom: 1px solid rgb(78, 77, 77);
+			position: absolute;
+			top: 9px;
+			right: -74px;
+		}
+	}
+
+}
+
+.socials {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+
+}
