@@ -15,7 +15,6 @@ button, input {
   cursor: pointer;
 }
 
-
 body {
   font-family: "Barlow", "Poppins", sans-serif;
 }
@@ -23,5 +22,19 @@ body {
 .container {
   padding: 0 144px;
   margin: 0 auto;
+}
+
+h1, h2, h3, h4, h4, h5, h6{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+p, span, b, button, input{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
 }
 

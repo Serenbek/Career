@@ -1,0 +1,69 @@
+@import '../../../../styles/variables.scss';
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 264px;
+
+    img {
+        border-radius: 16px;
+    }
+
+    .card__text {
+        h1 {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 28px;
+            color: $main-black-light02;
+        }
+
+        .card__time {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0px;
+            gap: 8px;
+
+            .card__text_dot {
+                background: #919EAB;
+                border-radius: 100px;
+                width: 4px;
+                height: 4px;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 20px;
+                color: $main-black-light;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+        width: 100%;
+
+        .card__text {
+            h1 {
+                font-size: 15px;
+                line-height: 26px;
+            }
+
+        }
+
+        img {
+            border-radius: 12px;
+            width: 80px;
+        }
+    }
+}
