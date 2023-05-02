@@ -7,9 +7,11 @@ import DownloadAppBlock from "../components/Main/DownloadAppBlock/DownloadAppBlo
 import GetBlockJob from "../components/Main/GetBlockJob/GetBlockJob";
 import Latest from '../components/Main/LatestPost/Latest';
 
+
 function HomePage(props) {
     return (
         <div>
+            <PostJobBlock />
             <ForCandidates/>
             <HotCategories/>
             <ClientBlock />

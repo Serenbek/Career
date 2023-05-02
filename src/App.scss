@@ -18,3 +18,35 @@
   text-align: center;
   color: $orange;
 }
+
+.dark{
+  background-color: $main-black-light02!important;
+}
+.card_tour {
+  background-color: var(--bg-card) !important;
+}
+
+.dark_text {
+  color: $white!important;
+}
+
+.dark_inp {
+  background-color: rgba(145, 158, 171, 0.12) !important;
+}
+
+.dark_text_ul li span {
+  color: $white!important;
+}
+
+.datenum {
+  background-color: $main-black-light01;
+}
+
+.grey_text {
+  color: #c6c8c9 !important;
+}
+
+.card_active {
+  background-color: red;
+  border-radius: 100% !important;
+}
