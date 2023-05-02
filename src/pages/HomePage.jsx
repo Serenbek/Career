@@ -19,7 +19,6 @@ function HomePage(props) {
             <PostJobBlock />
             <DownloadAppBlock/>
             <GetBlockJob />
-
         </div>
     );
 }
