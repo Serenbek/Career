@@ -7,13 +7,17 @@ import DownloadAppBlock from "../components/Main/DownloadAppBlock/DownloadAppBlo
 import GetBlockJob from "../components/Main/GetBlockJob/GetBlockJob";
 
 
-function HomePage(props) {
+
+function HomePage() {
     return (
         <div>
             <PostJobBlock />
             <ForCandidates/>
             <HotCategories/>
             <ClientBlock />
+
+            <Latest/>
+            <PostJobBlock />
             <DownloadAppBlock/>
             <GetBlockJob />
 

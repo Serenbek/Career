@@ -1,0 +1,199 @@
+@import '../../../styles/variables.scss';
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 120px 0px;
+    gap: 80px;
+    .btnO{
+        display: none;
+    }
+
+    .top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        gap: 80px;
+
+        .top__text {
+            .top__text_p {
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 20px;
+                text-transform: uppercase;
+                color: #919EAB;
+            }
+
+            h1 {
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 64px;
+                color: $main-black-light02;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                color: $main-black-light01;
+            }
+        }
+
+        button {
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: $orange;
+            background-color: rgba(0, 0, 0, 0);
+            padding: 6px 8px;
+            gap: 8px;
+        }
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: row;
+        // align-items: flex-start;
+        padding: 0px;
+        gap: 32px;
+
+        .posts {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 32px;
+        }
+
+        .post {
+            position: relative;
+            img{
+                width: 100%;
+            }
+
+            .post__text {
+                position: absolute;
+                bottom: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 40px;
+                gap: 16px;
+
+                .post__time {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding: 0px;
+                    gap: 8px;
+
+                    div {
+                        width: 4px;
+                        height: 4px;
+                        border-radius: 100px;
+                        background: $main-black-light;
+                    }
+                }
+
+                h1 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 54px;
+                    color: $white;
+                }
+
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: $white;
+                    opacity: 0.48;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1300px) {
+    .wrapper {
+        
+        .bottom {
+            display: flex;
+            flex-direction: column;
+            .posts {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+
+        }
+    }
+}
+
+
+@media (max-width: 912px) {
+    .wrapper {
+        .bottom {
+            display: flex;
+            flex-direction: column;
+            .posts {
+                grid-template-columns: 1fr 1fr;
+            }
+
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .wrapper {
+        gap: 64px;
+        .btnO{
+            display: block;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: $orange;
+            background-color: rgba(0, 0, 0, 0);
+            padding: 6px 8px;
+            gap: 8px;
+            justify-content: center;
+    
+        }
+        .top {
+            .top__text {
+                h1 {
+                    font-size: 32px;
+                    line-height: 42px;
+                }
+
+                p {
+                    text-align: center;
+                }
+            }
+
+            button {
+                display: none;
+            }
+        }
+
+        .bottom {
+            flex-direction: column;
+            gap: 0;
+
+            .post {
+                display: none;
+            }
+
+            .posts {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+
+}
