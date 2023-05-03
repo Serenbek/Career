@@ -11,6 +11,8 @@ import CareerDetails from "./pages/CareerDetails";
 
 
 
+
+
 function App() {
   const isDark = useTheme()
 

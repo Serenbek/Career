@@ -3,10 +3,10 @@ import Header from '../components/Header/Header'
 
 const CareerDetails = () => {
   return (
-	<div>
-	  <Header/>
-	</div>
-  )
+    <div className="container">
+      <Header />
+    </div>
+  );
 }
 
 export default CareerDetails
