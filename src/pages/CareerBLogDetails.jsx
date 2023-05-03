@@ -3,10 +3,10 @@ import Header from '../components/Header/Header'
 
 const CareerBLogDetails = () => {
   return (
-	<div>
-	  <Header/>
-	</div>
-  )
+    <div className="container">
+      <Header />
+    </div>
+  );
 }
 
 export default CareerBLogDetails

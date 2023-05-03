@@ -21,6 +21,8 @@
 
 .dark{
   background-color: $main-black-light02!important;
+    box-shadow: 3px 3px 3px #0e131b,
+      -3px -3px 3px #1c2739;
 }
 .card_tour {
   background-color: var(--bg-card) !important;
