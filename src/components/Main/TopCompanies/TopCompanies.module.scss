@@ -1,0 +1,28 @@
+@import '../../../styles/variables.scss';
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    h1{
+        display: flex;
+        justify-content: center;
+    }
+    :global {
+        .slick-slider {
+            .slick-prev:before {
+                content: url(../../../assets/images/TopCompanies/prev.svg);
+            }
+
+            .slick-next:before {
+                content: url(../../../assets/images/TopCompanies/next.svg);
+            }
+        }
+    }
+
+    .top {
+        width: 100%;
+        display: flex !important;
+        flex-direction: row;
+        padding: 80px 64px;
+    }
+}
