@@ -6,14 +6,18 @@ import netflix from '../../../assets/images/clientblockIMg/netflix.svg'
 import heroku from '../../../assets/images/clientblockIMg/heroku.svg'
 import vimeo from '../../../assets/images/clientblockIMg/vimeo.svg'
 import airbnb from '../../../assets/images/clientblockIMg/airbnb.svg'
+import i18n from "i18next";
+import { useTranslation, initReactI18next } from "react-i18next";
+
 
 function ClientBlock() {
+    const { t } = useTranslation();
     return (
         <div className={css.background}>
             <div className='container'>
                 <div className={css.wrapper}>
                     <div className={css.headline}>
-                        <h1>Our Clients</h1>
+                        <h1>{t('OurClients')}</h1>
                         <p>Curabitur a felis in nunc fringilla tristique. Fusce egestas elit eget lorem. Etiam vitae tortor.</p>
                     </div>
                     <div className={css.images}>

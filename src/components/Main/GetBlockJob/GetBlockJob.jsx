@@ -1,15 +1,18 @@
 import React from 'react'
 import css from './GetBlockJob.module.scss'
+import i18n from "i18next";
+import { useTranslation, initReactI18next } from "react-i18next";
 
 function GetBlockJob() {
+  const { t } = useTranslation();
   return (
     <div className={css.wrapper}>
         <div className='container'>
-            <h1>Get The Right Job For You</h1>
-            <p>Subscribe to get updated on latest and relevant career opportunities</p>
+            <h1>{t('getTheRightJob')}</h1>
+            <p>{t('subscribeToGetUpd')}</p>
             <div className={css.inp}>
-                <input placeholder='Enter your email' type="text"/>
-                <button>Subscribe</button>
+                <input placeholder={t('enterYourEmail')} type="text"/>
+                <button>{t('subscribe')}</button>
             </div>
         </div>
     </div>
