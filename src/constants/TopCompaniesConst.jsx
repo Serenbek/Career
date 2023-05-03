@@ -30,6 +30,31 @@ export const TopCompaniesConst = [
         img: photoshop,
         disc: '123',
         title: 'Dare - Treutel'
+    },
+    {
+        img: cola,
+        disc: '123',
+        title: 'Raynor Group'
+    },
+    {
+        img: huawei,
+        disc: '123',
+        title: 'Heidenreich, Stokes and Parker'
+    },
+    {
+        img: kihn,
+        disc: '123',
+        title: 'Kihn, Marquardt and Crist'
+    },
+    {
+        img: figma,
+        disc: '123',
+        title: 'Pagac and Sons'
+    },
+    {
+        img: photoshop,
+        disc: '123',
+        title: 'Dare - Treutel'
     }
 
 ]

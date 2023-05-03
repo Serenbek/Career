@@ -1,4 +1,3 @@
-// import React from 'react';
 import React, { useRef } from "react";
 import scss from './TopCompanies.module.scss'
 import Slider from "react-slick";
@@ -14,26 +13,46 @@ function TopCompanies(props) {
     infinite: true,
     speed: 500,
     arrows: true,
-    slidesToShow: 1,
+    slidesToShow: 5,
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1440,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 5,
           slidesToScroll: 1,
           infinite: true,
+          arrows: true
+
         }
       },
+
       {
-        breakpoint: 600,
+        breakpoint: 1025,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          infinite: true,
+
+        }
+      },
+
+      {
+        breakpoint: 912,
+        settings: {
+          slidesToShow: 3,
           slidesToScroll: 1,
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 776,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 390,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
@@ -48,21 +67,11 @@ function TopCompanies(props) {
       <div className={scss.wrapper}>
         <h1>Top Companies</h1>
         <Slider ref={arrowRef} {...settings}>
-          <div className={scss.top}>
             {
               TopCompaniesConst.map((item, index) => (
                 <CompaniesCard key={`${item.image}_${index}`} {...item} />
               ))
             }
-          </div>
-
-          <div className={scss.top}>
-            {
-              TopCompaniesConst.map((item, index) => (
-                <CompaniesCard key={`${item.image}_${index}`} {...item} />
-              ))
-            }
-          </div>
         </Slider>
       </div>
     </div>

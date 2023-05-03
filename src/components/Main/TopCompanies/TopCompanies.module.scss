@@ -26,3 +26,21 @@
         padding: 80px 64px;
     }
 }
+
+
+@media (max-width: 800px) {
+    .wrapper {
+        :global {
+            .slick-slider {
+                .slick-prev {
+                    left: 20px;
+                }
+                .slick-next {
+                    right: 25px;
+                }
+    
+            }
+        }
+    
+    }}
+
