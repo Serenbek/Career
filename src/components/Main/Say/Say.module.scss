@@ -1,0 +1,80 @@
+@import '../../../styles/variables.scss';
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+    h1 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+        color: $main-black-light02;
+    }
+
+    .top {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+        justify-content: center;
+
+        p {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 36px;
+            text-align: center;
+            color: $main-black-light02;
+            width: 564px;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0px;
+            gap: 4px;
+
+            h1 {
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 28px;
+                color: $main-black-light02 ;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 24px;
+                color: $main-black-light;
+
+            }
+        }
+    }
+
+    .btnSay {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 16px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 414px) {
+    .wrapper {
+        h1 {
+            font-size: 32px;
+            line-height: 42px;
+        }
+
+        gap: 64px;
+        .top{
+            p{
+                width: 335px;
+            }
+        }
+    }
+}

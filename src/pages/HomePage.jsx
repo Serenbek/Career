@@ -6,17 +6,26 @@ import ClientBlock from "../components/Main/ClientBlock/ClientBlock";
 import DownloadAppBlock from "../components/Main/DownloadAppBlock/DownloadAppBlock";
 import GetBlockJob from "../components/Main/GetBlockJob/GetBlockJob";
 import GlobalConnectionBlock from '../components/Main/GlobalConnectionBlock/GlobalConnectionBlock';
+import Latest from '../components/Main/LatestPost/Latest';
+import TopCompanies from '../components/Main/TopCompanies/TopCompanies';
+import Say from '../components/Main/Say/Say';
+import Footer from '../components/Footer/Footer';
+
 
 function HomePage(props) {
     return (
         <div>
-            <ForCandidates/>
-            <HotCategories/>
-            <ClientBlock />
             <PostJobBlock />
+            <ForCandidates/>
+            <TopCompanies/>
+            <HotCategories/>
+            <Say/>
+            <ClientBlock />
+            <Latest/>
             <DownloadAppBlock/>
             <GetBlockJob />
             <GlobalConnectionBlock/>
+            <Footer/>
         </div>
     );
 }
