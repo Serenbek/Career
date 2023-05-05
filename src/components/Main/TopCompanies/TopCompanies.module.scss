@@ -30,6 +30,11 @@
 
 @media (max-width: 800px) {
     .wrapper {
+        h1 {
+            font-size: 32px;
+            line-height: 42px;
+        }
+
         :global {
             .slick-slider {
                 .slick-prev {
