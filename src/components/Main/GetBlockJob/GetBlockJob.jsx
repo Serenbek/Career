@@ -1,10 +1,10 @@
 import React from 'react'
 import css from './GetBlockJob.module.scss'
-import i18n from "i18next";
-import { useTranslation, initReactI18next } from "react-i18next";
+import i18next from "i18next";
+import { useTranslation } from "react-i18next";
 
 function GetBlockJob() {
-  const { t } = useTranslation();
+  const { i18n,t } = useTranslation();
   return (
     <div className={css.wrapper}>
         <div className='container'>

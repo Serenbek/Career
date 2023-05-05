@@ -1,0 +1,47 @@
+.wrapper{
+    
+    .components{
+        background-image: url('../../../assets/images/globalconnectionImg/backImg.svg');
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: row;
+        .left{
+            display: flex;
+            flex-direction: column;
+            width: 368px;
+            gap: 30px;
+            h1{
+                font-family: 'Barlow';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 64px;
+            }
+            .text{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                color: #637381;
+            }
+            button{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 11px 22px;
+                gap: 8px;
+                width: 153px;
+                height: 48px;
+                background: #FA541C;
+                border-radius: 8px;
+                color: #fff;
+                gap: 10px;
+            }
+        }
+        .right{
+            
+        }
+    }
+}
