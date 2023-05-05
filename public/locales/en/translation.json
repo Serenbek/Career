@@ -18,4 +18,23 @@
     "comoros": "Comoros",
     "azerbaijan": "Azerbaijan"
 
+  "header": {
+    "navlist": "Career list",
+    "navdetail": "Detailsa",
+    "navpage": "Page",
+    "navblog": "Blog",
+    "loginlog": "Login",
+    "loginjoin": "Join Us",
+    "info": "Blog info",
+    "About": "About career",
+    "Contact": "Contact"
+  },
+  "modalLogin": {
+    "title": "Wellcome",
+    "loginTit": "Your Login",
+    "placholText": "Email address",
+    "pass": "Password",
+    "or": "OR",
+    "login": "Login"
+  }
 }
