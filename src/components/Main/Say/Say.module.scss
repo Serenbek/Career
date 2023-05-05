@@ -65,6 +65,11 @@
 
 @media (max-width: 414px) {
     .wrapper {
+        h1 {
+            font-size: 32px;
+            line-height: 42px;
+        }
+
         gap: 64px;
         .top{
             p{
