@@ -21,6 +21,7 @@ function HomePage(props) {
             <Say/>
             <ClientBlock />
             <Latest/>
+            <PostJobBlock />
             <DownloadAppBlock/>
             <GetBlockJob />
             <Footer/>
