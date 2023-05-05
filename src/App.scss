@@ -21,11 +21,9 @@
 
 .dark{
   background-color: $main-black-light02!important;
-    box-shadow: 3px 3px 3px #0e131b,
-      -3px -3px 3px #1c2739;
 }
-.card_tour {
-  background-color: var(--bg-card) !important;
+.card {
+  background: $main-black-light01!important;
 }
 
 .dark_text {
@@ -33,7 +31,7 @@
 }
 
 .dark_inp {
-  background-color: rgba(145, 158, 171, 0.12) !important;
+  background-color: #212B36!important;
 }
 
 .dark_text_ul li span {

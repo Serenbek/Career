@@ -32,7 +32,6 @@ const [isOpen, setIsOpen] = useState(false);
  useEffect(() => {
    setIsMounted(true);
  }, []);
-               console.log(i18n)
 
  useEffect(() => {
    function handleClickOutside(event) {
