@@ -8,6 +8,7 @@ import GetBlockJob from "../components/Main/GetBlockJob/GetBlockJob";
 import Latest from '../components/Main/LatestPost/Latest';
 import TopCompanies from '../components/Main/TopCompanies/TopCompanies';
 import Say from '../components/Main/Say/Say';
+import Test from '../components/Test/Test';
 
 
 function HomePage(props) {
@@ -22,6 +23,7 @@ function HomePage(props) {
             <Latest/>
             <DownloadAppBlock/>
             <GetBlockJob />
+            <Test/>
         </div>
     );
 }
