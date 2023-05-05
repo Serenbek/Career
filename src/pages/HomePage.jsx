@@ -5,8 +5,10 @@ import PostJobBlock from '../components/Main/PostJobBlock/PostJobBlock';
 import ClientBlock from "../components/Main/ClientBlock/ClientBlock";
 import DownloadAppBlock from "../components/Main/DownloadAppBlock/DownloadAppBlock";
 import GetBlockJob from "../components/Main/GetBlockJob/GetBlockJob";
-
 import Latest from '../components/Main/LatestPost/Latest';
+import TopCompanies from '../components/Main/TopCompanies/TopCompanies';
+import Say from '../components/Main/Say/Say';
+import Footer from '../components/Footer/Footer';
 
 
 function HomePage(props) {
@@ -14,12 +16,15 @@ function HomePage(props) {
         <div>
             <PostJobBlock />
             <ForCandidates/>
+            <TopCompanies/>
             <HotCategories/>
+            <Say/>
             <ClientBlock />
             <Latest/>
             <PostJobBlock />
             <DownloadAppBlock/>
             <GetBlockJob />
+            <Footer/>
         </div>
     );
 }

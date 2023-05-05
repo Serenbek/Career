@@ -3,10 +3,14 @@
   flex-direction: row;
 
 
+  .main__img {
+    width: 438px;
+    height: 665.44px;
 
-    .main__img {
-        width: 438px;
-        height: 665.44px;
+    @media only screen and (max-width: 1300px) {
+      background: rgba(250, 84, 28, 0.08);
+      border-radius: 24px;
+      justify-content: center;
     }
     
     @media only screen and (max-width:1300px){
@@ -37,8 +41,11 @@
 
     }
 
-    .left {
+
+
+      .left {
         display: flex;
+
 
   .main__img {
     width: 438px;
@@ -158,6 +165,15 @@
               line-height: 28px;
               color: #ffff;
             }
+            }
+            h1 {
+              font-family: "Barlow";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 28px;
+              color: #ffff;
+            }
           }
         }
       }
@@ -168,3 +184,5 @@
   
 
 
+}  }
+}
