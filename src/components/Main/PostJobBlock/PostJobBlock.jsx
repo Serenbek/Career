@@ -1,7 +1,7 @@
 import React from 'react'
 import css from './PostJobBlock.module.scss'
 import mainImg from '../../../assets/images/recruitImgs/recruitMainImg.svg'
-import { useTranslation, initReactI18next } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import file from "../../../assets/images/recruitImgs/fileImg.svg";
 import Header from '../../Header/Header';
 
