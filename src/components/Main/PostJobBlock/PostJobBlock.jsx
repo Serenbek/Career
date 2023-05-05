@@ -4,6 +4,9 @@ import mainImg from '../../../assets/images/recruitImgs/recruitMainImg.svg'
 import file from '../../../assets/images/recruitImgs/fileImg.svg'
 import i18next from "i18next";
 import { useTranslation, initReactI18next } from "react-i18next";
+import file from "../../../assets/images/recruitImgs/fileImg.svg";
+import Header from '../../Header/Header';
+
 
 
 function PostJobBlock() {
@@ -12,6 +15,8 @@ function PostJobBlock() {
     return (
         <div className={css.background}>
             <div className='container'>
+                <Header/>
+
                 <div className={css.wrapper}>
                     <div className={css.left}>
                         <p className={css.info}>{t('ForRecruiters')}</p>

@@ -1,0 +1,276 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  gap: 40px;
+  font-family: "Raleway", sans-serif;
+
+  .left {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .left a {
+    font-weight: 900;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #919eab;
+  }
+
+  .left a:hover {
+    color: #fa541c;
+  }
+
+  .right {
+    width: 35%;
+    display: flex;
+    padding: 0px;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+    .leftContent {
+      border-right: 1px solid rgba(171, 145, 150, 0.24);
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    .login {
+      width: 100%;
+      height: 36px;
+      background: none;
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: 900;
+      border: none;
+      cursor: pointer;
+    }
+
+    .joinUs {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 6px 16px;
+      width: 100%;
+      height: 36px;
+      background: #ffffff;
+      border-radius: 8px;
+      font-family: "Raleway", sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+}
+
+.login1 {
+  width: 100%;
+  height: 36px;
+  background: none;
+    color: #919eab;
+  font-size: 15px;
+  font-weight: 900;
+  border: none;
+  cursor: pointer;
+}
+
+.joinUs1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 16px;
+  width: 100%;
+  height: 36px;
+  color: #ffffff;
+  background: #212b36;
+  border-radius: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.toogleTheme {
+  button{
+background-color: transparent;
+  }
+  img {
+    margin-right: 32px;
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.langButton {
+  button {
+    color: #919eab;
+    font-weight: 900;
+    
+  }
+  width: 50px;
+}
+.langButton {
+  button:hover {
+    color: #fa541c;
+  }
+}
+.langButton button:hover {
+  transition: 0.1s;
+  transform: scale(1.1);
+}
+
+.btnlink {
+  color: #ffffff;
+}
+
+.logo {
+  width: 75px;
+  height: 20px;
+}
+
+.dropbtn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  left: -45px;
+  position: absolute;
+  color: #919eab;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  top: -14px;
+}
+
+.dropdowncontent {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: -45px;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdowncontent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdowncontent a:hover {
+  background-color: #7a7878;
+}
+
+.dropdown:hover .dropdowncontent {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: #fa541c;
+}
+.phoneExtension {
+  display: none;
+}
+
+//burger
+/* Modal container */
+.btn_burger {
+  display: none;
+}
+.modal {
+  position: absolute;
+
+  top: -120px;
+  left: 40px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal_header {
+  display: flex;
+  flex-direction: row-reverse;
+}
+/* Modal content */
+.modal_content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  max-height: 80vh;
+  overflow: auto;
+  z-index: 10;
+}
+
+/* Close button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.modal_body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal_body a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.modal_body a:hover {
+  background-color: #ddd;
+}
+
+//burger end
+
+@media (max-width: 576px) {
+  .btn_burger {
+    display: block;
+  }
+  .left a {
+    display: none;
+  }
+  .dropbtn {
+    display: none;
+  }
+  .login1,
+  .joinUs1 {
+    display: none;
+  }
+  .wrapper .right .joinUs,
+  .login {
+    display: none;
+  }
+  .wrapper {
+    .right {
+      width: 45%;
+    }
+  }
+}
