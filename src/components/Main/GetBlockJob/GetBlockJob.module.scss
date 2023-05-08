@@ -40,13 +40,14 @@
         text-align: center;
         justify-content: center;
         input {
-            width: 439px;
+            width: 80%;
             height: 56px;
             border: none;
             background: #FFFFFF;
             backdrop-filter: blur(4px);
             border-radius: 8px 0px 0px 8px;
             padding: 12px;
+            
         }
         button {
             display: flex;
