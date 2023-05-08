@@ -199,7 +199,25 @@ width: 200px;
 
 .dropdown:hover .dropdowncontent {
   display: block;
+  animation: dropdown-show 0.5s ease-in-out forwards;
 }
+
+@keyframes dropdown-show {
+  from {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-30px);
+  }
+
+  to {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+
+
+
 
 .phoneExtension {
   display: none;
@@ -226,7 +244,7 @@ img{
 }
 .btn_burger{
   display: none;
-  background-color: #919eab;
+  background-color: transparent;
   width: fit-content;
   img{
     width: 37px;

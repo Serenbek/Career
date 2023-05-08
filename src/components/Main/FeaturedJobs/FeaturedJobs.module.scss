@@ -1,9 +1,40 @@
 .wrapper {
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-	gap: 10px;
+	gap: 30px;
 }
 
+.header{
+	width: 100%;
+	display: flex;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	justify-content: center;
+	.header_info{
+width: 20%;
+		font-style: normal;
+			font-weight: 600;
+			font-size: 12px;
+			line-height: 20px;
+		text-transform: uppercase;
+			color: #919EAB;
+	}
+	.header_title{
+		justify-self: flex-end;
+		width: 73%;
+		h1{
+			text-align: right;
+			padding-left: 109px;
+			font-style: normal;
+			font-weight: 700;
+			font-size: 36px;
+			line-height: 54px;
+			color: #212B36;
+		}
+		
+	}
+}
 .card {
 	background: #FFFFFF;
 	width: 310.67px;
@@ -11,7 +42,7 @@
 	box-shadow: -8px 8px 24px -4px rgba(145, 158, 171, 0.1);
 	border-radius: 16px;
 	padding: 24px;
-
+transition: all 500ms;
 	.card_header {
 		width: 100%;
 		display: flex;
@@ -91,6 +122,7 @@
 			width: 290px;
 			border-bottom: 1px dashed rgb(156, 152, 152);
 		}
+		
 	}
 
 	.card_foot {
@@ -113,7 +145,12 @@
 				left: -32px;
 			}
 		}
+	
 	}
+&:hover {
+	box-shadow: 2px -3px 16px 13px rgba(160, 158, 171);
+	transform: scale(1.1);
+}
 }
 
 
@@ -131,51 +168,51 @@
 		transform: scale(0.95);
 	}
 }
-
-
-.pagination {
-	display: flex;
-	height: 180px;
-	width: 100%;
-	gap: 20px;
-	align-items: center;
-	justify-content: center;
-	font-family: 'Poppins';
-	cursor: pointer;
-	list-style: none;
-}
-
-.page_num {
-	width: 30px;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 28px;
-	display: flex;
-	align-items: flex-end;
-	justify-content: center;
-	color: #787a7c;
-
-}
-
-.page_num:hover {
-	display: flex;
-	align-items: flex-end;
-	justify-content: center;
-	border-radius: 50%;
-	background-color: rgb(255, 191, 161);
-}
-
-.pagination .active {
-	border-radius: 50%;
-	color: rgb(241, 126, 73);
-	background-color: rgb(255 191 161 / 53%);
-	width: 30px;
-	height: 30px;
-	line-height: 10px;
+.footer{
 	text-align: center;
+	margin: 90px auto;
+	.wraper_btn{
+	background-color: transparent;
+	padding: 10px 20px;
+	border: 1px solid rgb(235, 235, 235);
+	font-style: normal;
+		font-weight: 600;
+		font-size: 15px;
+		line-height: 26px;
+		transition: all 400ms;
+		&:hover{
+			border: 1px solid rgb(29, 28, 28);
+		}
+}
+}
 
-	a {
-		color: #FA541C;
+
+@media screen and (max-width: 800px) {
+	
+		.header{
+		flex-direction: column;
+align-items: center;
+.header_info {
+	text-align: center;
+	}
+.header_title{
+		h1{
+			text-align: center;
+			padding: 0;
+			font-size: 26px;
+			line-height: 30px;
+		}
+	}
 	}
 }
+
+@media screen and (max-width: 500px) {
+	.header {
+	
+			.header_title {
+				h1 {
+					font-size: 16px;
+				}
+			}
+		}
+	}

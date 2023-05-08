@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CardListInput = () => {
+const DetailButtons = () => {
   return (
 	<div>
 	  
@@ -8,4 +8,4 @@ const CardListInput = () => {
   )
 }
 
-export default CardListInput
+export default DetailButtons

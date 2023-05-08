@@ -17,5 +17,20 @@
     "pass": "Password",
     "or": "OR",
     "login": "Login"
+  },
+  "featured": {
+    "headInfo": "Featured Jobs",
+    "headTitle": "Jobs available apply to Editorial Specialist, Account Manager, Human Resources Specialist and more!",
+    "veiw": "View All Jobs"
+  },
+  "cardInput": {
+    "job": "Job title, keywords...",
+    "cat": "Categories",
+    "log": "Locations",
+    "type": "job type",
+    "lvl": "All levels",
+    "salary": "All salary ranges",
+    "benef": "Benefits",
+    "filter": "Filter"
   }
 }

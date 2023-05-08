@@ -1,26 +1,27 @@
-import { cardListData } from '../../constants/cardListData'
+import { cardListData } from '../../../constants/cardListData'
 import cn from 'classnames'
 import { useState } from "react";
 import ReactPaginate from "react-paginate";
+import useTheme from "../../../hooks/useTheme";
+import CardFavorite from '../CardFavorite/CardFavorite'
 
-import useTheme from "../../hooks/useTheme";
+import favorite from '../../../assets/listCard/favorite.png'
+import local from '../../../assets/listCard/local.png'
+import level from '../../../assets/listCard/exp.png'
+import cash from '../../../assets/listCard/cash.png'
+import user from '../../../assets/listCard/user.png'
+import clock from '../../../assets/listCard/clock.png'
+import userlike from '../../../assets/listCard/like.png'
+import { addToCart } from "../../../redux/slices/CartSlice";
 
-import favorite from '../../assets/listCard/favorite.png'
-import local from '../../assets/listCard/local.png'
-import level from '../../assets/listCard/exp.png'
-import cash from '../../assets/listCard/cash.png'
-import user from '../../assets/listCard/user.png'
-import clock from '../../assets/listCard/clock.png'
-import userlike from '../../assets/listCard/like.png'
-
-
-import scss from './cardListMain.module.scss'
+import scss from './CardListMain.module.scss'
 import { useEffect } from 'react';
-
-
+import { useDispatch, useSelector } from 'react-redux';
 
 const CardListMain = () => {
-
+ const dispatch = useDispatch();
+ const cart = useSelector((state) => state.reducer.cartItems);
+console.log(cart)
 	const isDark = useTheme();
 const [currentItems, setCurrentItems] = useState([]);
 const [pageCount, setPageCount] = useState(0);
@@ -37,8 +38,6 @@ const handlePageClick = (event) => {
 
   setItemOffset(newOffset);
 };
-
-
   return (
     <div>
       <div className={scss.wrapper}>
@@ -52,7 +51,12 @@ const handlePageClick = (event) => {
             <header className={scss.card_header}>
               <img src={card.img} alt="" />
               <button>
-                <img className={scss.header_like} src={favorite} alt="" />
+                <img
+                  className={scss.header_like}
+                  onClick={() => dispatch(addToCart(card))}
+                  src={favorite}
+                  alt=""
+                />
               </button>
             </header>
             <section className={scss.card_body}>
@@ -97,6 +101,7 @@ const handlePageClick = (event) => {
         nextLinkClassName={scss.page_num}
         activeClassName={scss.active}
       />
+      <CardFavorite/>
     </div>
   );
 }

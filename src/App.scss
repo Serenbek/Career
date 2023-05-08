@@ -29,7 +29,9 @@
 .dark_text {
   color: $white!important;
 }
-
+.dark_btn{
+  filter: invert(1);
+}
 .dark_inp {
   background-color: #212B36!important;
 }
