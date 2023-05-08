@@ -48,24 +48,7 @@
       }
   }
 
-  @media (max-width: 1100px) {
-      .wrapper {
-          padding: 64px 0px;
-          gap: 64px;
 
-          h1 {
-              font-size: 32px;
-              line-height: 42px;
-          }
-
-          .cards {
-              display: grid;
-              grid-template-columns: 1fr 1fr 1fr;
-              gap: 32px;
-
-          }
-      }
-  }
 
 
   @media (max-width: 912px) {
@@ -103,24 +86,6 @@
               grid-template-columns: 1fr;
               gap: 20px;
 
-          }
-      }
-  }
-
-  @media (max-width: 576px) {
-      .wrapper {
-          padding: 64px 0px;
-          gap: 20px;
-
-          h1 {
-              font-size: 32px;
-              line-height: 42px;
-          }
-
-          .cards {
-              display: grid;
-              grid-template-columns: 1fr;
-              gap: 20px;
           }
       }
   }
