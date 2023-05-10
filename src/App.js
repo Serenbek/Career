@@ -8,6 +8,8 @@ import CareerBlog from "./pages/CareerBlog";
 import CareerBLogDetails from "./pages/CareerBLogDetails";
 import CareerContact from "./pages/CareerContact";
 import CareerDetails from "./pages/CareerDetails";
+import CareerCart from "./pages/CareerCart";
+
 
 
 
@@ -24,6 +26,7 @@ function App() {
         <Route path="/CareerBLogDetails" element={<CareerBLogDetails/>} />
         <Route path="/CareerContact" element={<CareerContact/>} />
         <Route path="/CareerDetails" element={<CareerDetails/>} />
+        <Route path="/CareerCart" element={<CareerCart/>} />
       </Routes>
     </div>
   );

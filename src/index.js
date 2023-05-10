@@ -6,16 +6,16 @@ import { BrowserRouter } from 'react-router-dom';
 import { Trans } from "react-i18next";
 import './i18n'
 import { RingLoader } from 'react-spinners';
-import { store } from './redux/store'
 import { Provider } from 'react-redux'
-
+import store, { persistor } from './redux/store'
+import { PersistGate } from 'redux-persist/integration/react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  //<React.StrictMode>
   <Provider store={store}>
+    <PersistGate loading={null} persistor={persistor}>
     <React.Suspense fallback={<RingLoader color="#36d7b7"
-      cssOverride={{ margin: "280px auto" }}
+      cssOverride={{ margin: "280px auto"}}
       loading
       size={200} />}>
       <Trans i18nKey=''>
@@ -24,6 +24,7 @@ root.render(
         </BrowserRouter>
       </Trans>
     </React.Suspense>
+    </PersistGate>
   </Provider>
   //</React.StrictMode >
 );
