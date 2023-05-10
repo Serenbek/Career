@@ -43,3 +43,10 @@
   line-height: 26px;
   color: $main-black-light02;
 }
+
+
+@media (max-width:975px) {
+  .My__btn_wide{
+    width: 100%;
+  }
+}

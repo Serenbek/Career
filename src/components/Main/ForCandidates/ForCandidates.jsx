@@ -3,7 +3,6 @@ import scss from './ForCandidates.module.scss'
 import btn_img from '../../../assets/images/ForCandidates/btn_img.svg'
 import ForCandidatesCard from './ForCandidatesCard/ForCanditades';
 import { ForCandidatesConst } from '../../../constants/ForCandidatesConst'
-import MyButtonWide from '../../UI/Buttons/MyButtonWide';
 import MyButton from '../../UI/Buttons/MyButton';
 
 function ForCandidates(props) {
@@ -26,7 +25,7 @@ function ForCandidates(props) {
                 </div>
                 <MyButton>
                     <>
-                    <img src={btn_img} alt="image" />
+                    <img src={btn_img} alt="img" />
                     Upload Your CV
                     </>
                 </MyButton>

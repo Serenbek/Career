@@ -22,7 +22,7 @@ function Say(props) {
                 <h1>What Our Customer Say</h1>
             <Slider ref={arrowRef} {...settings}>
                 <div className={scss.top}>
-                    <img src={stars} alt="image" />
+                    <img src={stars} alt="img" />
                     <p>Amazing experience i love it a lot. Thanks to the team
                          that dreams come true, great! I appreciate     there 
                           attitude and approach.</p>
@@ -32,7 +32,7 @@ function Say(props) {
                     </div>
                 </div>
                 <div className={scss.top}>
-                    <img src={stars} alt="image" />
+                    <img src={stars} alt="img" />
                     <p>Amazing experience i love it a lot. Thanks to the team <br />
                          that dreams come true, great! I appreciate there <br />
                           attitude and approach.</p>

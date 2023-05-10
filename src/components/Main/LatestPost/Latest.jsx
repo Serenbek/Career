@@ -18,13 +18,13 @@ function Latest(props) {
                     </div>
                     <button>
                         View All
-                        <img src={orangeArrow} alt="" />
+                        <img src={orangeArrow} alt="img" />
                     </button>
                 </div>
                 <div className={scss.bottom}>
-                    <a href="">
+                    <a href="/CareerBlog">
                         <div className={scss.post} >
-                            <img src={depression} alt="" />
+                            <img src={depression} alt="img" />
                             <div className={scss.post__text}>
                                 <div className={scss.post__time}>
                                     <p>24 May 2019</p>
@@ -49,7 +49,7 @@ function Latest(props) {
                 </div>
                 <button className={scss.btnO}>
                     View All
-                    <img src={orangeArrow} alt="" />
+                    <img src={orangeArrow} alt="img" />
                 </button>
 
             </div>
