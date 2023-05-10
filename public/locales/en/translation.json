@@ -103,9 +103,31 @@
     "title2": "Event Doesn't Have To Be Hard. Read These 7 Tips",
     "title3": "Knowing These 7 Secrets Will Make Your Event Look Amazing'",
     "title4": "Don't Waste Time! 7 Facts Until You Reach Your Event"
-
-
-
-
+  },
+  "featured": {
+    "headInfo": "Featured Jobs",
+    "headTitle": "Jobs available apply to Editorial Specialist, Account Manager, Human Resources Specialist and more!",
+    "veiw": "View All Jobs"
+  },
+  "cardInput": {
+    "job": "Job title, keywords...",
+    "cat": "Categories",
+    "log": "Locations",
+    "type": "job type",
+    "lvl": "All levels",
+    "salary": "All salary ranges",
+    "benef": "Benefits",
+    "filter": "Filter"
+  },
+  "cart": {
+    "nurse": "Nursing Assistant",
+    "market": "Marketing Coordinator",
+    "web": "Web Designer",
+    "pres": "President of Sales",
+    "dog": "Dog Trainer",
+    "medical": "Medical Assistant",
+    "post": "Posted day: October 28, 1019",
+    "exp": "3 year exp",
+    "part": "Part time"
   }
 }

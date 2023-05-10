@@ -15,14 +15,11 @@ button, input {
   cursor: pointer;
 }
 
-body {
-  font-family: "Barlow", "Poppins", sans-serif;
-}
-
 .container {
   padding: 0 144px;
   margin: 0 auto;
 }
+
 @media (max-width: 800px) {
   .container{
     padding: 0;
@@ -36,7 +33,7 @@ h1, h2, h3, h4, h4, h5, h6{
     line-height: 28px;
 }
 
-p, span, b, button, input{
+p, span, b, button, input, a{
   font-family: 'Roboto', sans-serif;
   font-style: normal;
     font-weight: 400;
