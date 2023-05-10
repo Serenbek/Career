@@ -13,6 +13,3 @@ const CareerDetails = () => {
         <Footer/>
     </>
   );
-}
-
-export default CareerDetails
