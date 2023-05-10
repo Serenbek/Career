@@ -4,8 +4,10 @@ import Slider from 'react-slick';
 import stars from '../../../assets/images/SayImgs/Rating.svg'
 import btnPrev from '../../../assets/images/TopCompanies/prev.svg'
 import btnNext from '../../../assets/images/TopCompanies/next.svg'
+import { useTranslation } from "react-i18next";
 
 function Say(props) {
+    const { t } = useTranslation()
     const arrowRef = useRef(null);
     const settings = {
         dots: false,
@@ -19,26 +21,22 @@ function Say(props) {
     return (
         <div className='container'>
             <div className={scss.wrapper}>
-                <h1>What Our Customer Say</h1>
+                <h1>{t("say.what")}</h1>
             <Slider ref={arrowRef} {...settings}>
                 <div className={scss.top}>
                     <img src={stars} alt="img" />
-                    <p>Amazing experience i love it a lot. Thanks to the team
-                         that dreams come true, great! I appreciate     there 
-                          attitude and approach.</p>
+                    <p>{t("say.desc")}</p>
                     <div>
-                        <h1>Robert Fox</h1>
-                        <p>designer</p>
+                        <h1>{t("say.rob")}</h1>
+                        <p>{t("say.designer")}</p>
                     </div>
                 </div>
                 <div className={scss.top}>
                     <img src={stars} alt="img" />
-                    <p>Amazing experience i love it a lot. Thanks to the team <br />
-                         that dreams come true, great! I appreciate there <br />
-                          attitude and approach.</p>
+                    <p>{t("say.p")}</p>
                     <div>
-                        <h1>Robert Fox</h1>
-                        <p>designer</p>
+                        <h1>{t("say.rob")}Robert Fox</h1>
+                        <p>{t("say.designer")}designer</p>
                     </div>
                 </div>
             </Slider>

@@ -1,23 +1,22 @@
 {
-    "ForRecruiters": "FOR RECRUITERS",
-    "doYouHAvePos": "Do You Have A Position To Post Job? ",
-    "PostAJob": "Post a Job",
-    "OurClients": "Our CLients",
-    "downloadApp": "Download App",
-    "findingNewJob": "Now finding the new job just got even easier with our new app!",
-    "getTheRightJob": "Get The Right Job For You",
-    "subscribeToGetUpd":"Subscribe to get updated on latest and relevant career opportunities",
-    "enterYourEmail": "Enter your email",
-    "subscribe": "Subscribe",
-    "downloadFrom": "Download from",
-    "downloadOn": "Download on the",
-    "globalConnection": "Global Connections",
-    "browseAll": "Browse All",
-    "bahamas": "Bahamas",
-    "jobs":  "196 Jobs",
-    "comoros": "Comoros",
-    "azerbaijan": "Azerbaijan",
-
+  "ForRecruiters": "FOR RECRUITERS",
+  "doYouHAvePos": "Do You Have A Position To Post Job? ",
+  "PostAJob": "Post a Job",
+  "OurClients": "Our CLients",
+  "downloadApp": "Download App",
+  "findingNewJob": "Now finding the new job just got even easier with our new app!",
+  "getTheRightJob": "Get The Right Job For You",
+  "subscribeToGetUpd": "Subscribe to get updated on latest and relevant career opportunities",
+  "enterYourEmail": "Enter your email",
+  "subscribe": "Subscribe",
+  "downloadFrom": "Download from",
+  "downloadOn": "Download on the",
+  "globalConnection": "Global Connections",
+  "browseAll": "Browse All",
+  "bahamas": "Bahamas",
+  "jobs": "196 Jobs",
+  "comoros": "Comoros",
+  "azerbaijan": "Azerbaijan",
   "header": {
     "navlist": "Career list",
     "navdetail": "Detailsa",
@@ -36,6 +35,74 @@
     "pass": "Password",
     "or": "OR",
     "login": "Login"
+  },
+  "hero": {
+    "home": "Home",
+    "job": "Jobs",
+    "ct": "Category",
+    "ps": "President of sales",
+    "marketing": "Marketing",
+    "views": "286 views",
+    "vg": "Virgin Islands, British",
+    "apply": "Apply Now",
+    "date": "Expiration date:",
+    "may": "19 May 2026"
+  },
+  "footer": {
+    "p": "The starting point for your next project based on easy-to-customize Material-UI  © helps you build apps faster and better.",
+    "street": "655 Schaefer Dale",
+    "copy": "© 2021. All rights reserved",
+    "help": "Help Center",
+    "pp": "Terms of Service"
+  },
+  "candidates": {
+    "cand": "For Candidates",
+    "exp": "Explore Thousands of Jobs",
+    "p": "Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Morbi mattis ullamcorper velit.",
+    "btn": "Upload Your CV"
+  },
+  "card": {
+    "title": "Create an account",
+    "step": "Step",
+    "desc": "Nunc nonummy metus. Donec elit libero"
+  },
+  "hot": {
+    "hhot": "Hot Categories",
+    "all": "View All Categories",
+    "title1": "Accounting / Finance",
+    "title2": "Marketing",
+    "title3": "Development",
+    "title4": "IT - Hardware",
+    "title5": "'Customer Service",
+    "title6": "Health and Care",
+    "title7": "'Customer Service",
+    "title8": "Banking",
+    "desc": "123 jobs"
+  },
+  "say": {
+    "what": "What Our Customer Say",
+    "desc": "Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there  attitude and approach.",
+    "rob": "Robert Fox",
+    "designer": "designer",
+    "p": "Amazing experience i love it a lot. Thanks to the team <br /> that dreams come true, great! I appreciate there <br />attitude and approach."
+  },
+  "latest": {
+    "vAll": "View all",
+    "blog": "BLOG",
+    "news": "Read Our Lates News",
+    "desc": "Aenean vulputate eleifend tellus. Mauris turpis nunc blandit et, volutpat molestie, porta ut, ligula.",
+    "date": "24 May 2019",
+    "min": "8 mins",
+    "title": "Event On A Budget: 7 Tips From The Great Depression",
+    "p": "Aenean viverra rhoncus pede. Phasellus blandit leo ut odio. Pellentesque commodo eros a enim. Phasellus consectetuer vestibulum elit.",
+    "вфеу": "24 May 2019"
+  },
+  "postCard": {
+    "date": "24 Маy 2019",
+    "title1": "Apply These 7 Secret Techniques To Improve Event",
+    "title2": "Event Doesn't Have To Be Hard. Read These 7 Tips",
+    "title3": "Knowing These 7 Secrets Will Make Your Event Look Amazing'",
+    "title4": "Don't Waste Time! 7 Facts Until You Reach Your Event"
   },
   "featured": {
     "headInfo": "Featured Jobs",

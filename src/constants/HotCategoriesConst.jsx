@@ -7,44 +7,45 @@ import health from '../assets/images/HotCategories/health.svg'
 import banking from '../assets/images/HotCategories/banking.svg'
 
 export const HotCategoriesConst =[
-    {
+    {   id:1,
         icon: finance,
-        title: 'Accounting / Finance',
-        disc: '123 jobs'
+        title: "hot.title1",
+        disc: 'hot.disc'
     },
     {
+        id: 2,
         icon: marketing,
-        title: 'Marketing',
+        title: "hot.title2",
         disc: '123 jobs'
     },
     {
         icon: development,
-        title: 'Design',
+        title: "hot.title3",
         disc: '123 jobs'
     },
     {
         icon: development,
-        title: 'Development',
+        title: "hot.title4",
         disc: '123 jobs'
     },
     {
         icon: it,
-        title: 'IT - Hardware',
+        title: "hot.title5",
         disc: '123 jobs'
     },
     {
         icon: customer,
-        title: 'Customer Service',
+        title: "hot.title6",
         disc: '123 jobs'
     },
     {
         icon: health,
-        title: 'Health and Care',
+        title: "hot.title7",
         disc: '123 jobs'
     },
     {
         icon: banking,
-        title: 'Banking',
+        title: "hot.title8",
         disc: '123 jobs'
     }
 ]

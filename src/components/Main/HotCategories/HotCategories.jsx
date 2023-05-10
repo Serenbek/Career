@@ -4,13 +4,16 @@ import { HotCategoriesConst } from '../../../constants/HotCategoriesConst';
 import HotCategoriesCard from './HotCategoriesCard/HotCategoriesCard';
 import ClearButton from '../../UI/Buttons/ClearButton'
 import arrow from '../../../assets/images/HotCategories/arrow.svg'
+import { useTranslation } from 'react-i18next';
 
 
 function HotCategories(props) {
+    const { t } = useTranslation(); 
+
     return (
         <div className="container">
             <div className={scss.wrapper}>
-                <h1>Hot Categories</h1>
+                <h1>{t("hot.hhot")}</h1>
                 <div className={scss.cards}>
                     {
                         HotCategoriesConst.map((item, index) => (
@@ -21,7 +24,7 @@ function HotCategories(props) {
                 <div className={scss.button}>
                 <ClearButton>
                     <>
-                    View All Categories
+                    {t("hot.all")}
                     <img src={arrow} alt="icon" />
                     </>
                 </ClearButton>

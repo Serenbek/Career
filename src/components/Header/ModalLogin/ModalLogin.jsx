@@ -14,7 +14,7 @@ import useTheme from "../../../hooks/useTheme";
 
 const ModalLogin = ({setOpenLog, openLog}) => {
   const isDark = useTheme()
-  const { t } = useTranslation();
+  const { t } = useTranslation(); 
   return (
     <div
       className={cn(css.wrapper_log, {
