@@ -4,6 +4,24 @@
 	gap: 10px;
 }
 
+.cart_icon{
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	.cart_val{
+			position: absolute;
+				right: -6px;
+				top: 19px;
+				color: #fa541c;
+				font-size: 16px;
+				font-weight: 600;
+				background-color: wheat;
+				border-radius: 16px;
+				width: 18px;
+				text-align: center;
+	}
+}
+
 .card {
 	background: #FFFFFF;
 	width: 310.67px;

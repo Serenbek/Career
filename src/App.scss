@@ -21,6 +21,7 @@
 
 .dark{
   background-color: $main-black-light02!important;
+  transition: all 500ms;
 }
 .card {
   background: $main-black-light01!important;
@@ -50,5 +51,4 @@
 
 .card_active {
   background-color: red;
-  border-radius: 100% !important;
 }

@@ -13,10 +13,10 @@ export const CartSlice = createSlice({
 		addToCart: (state, action) => {
 			const itemIndex = state.cartItems.findIndex((item) => item.id ===action.payload.id);
 			if (itemIndex === -1){
-				
+				state.cartItems.push(action.payload)
 			}else{
-				const tempProduct ={...action.payload}
-				state.cartItems.push(tempProduct)}
+				state.cartItems = state.cartItems.filter((_, i)=> i!==itemIndex )
+				}
 		},	
 	},
 })

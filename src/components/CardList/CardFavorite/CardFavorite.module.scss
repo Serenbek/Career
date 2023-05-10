@@ -1,7 +1,9 @@
 .wrapper {
+	margin-top: 50px;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 10px;
+min-height: 18vh;
 }
 
 .card {

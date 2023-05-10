@@ -32,5 +32,16 @@
     "salary": "All salary ranges",
     "benef": "Benefits",
     "filter": "Filter"
+  },
+  "cart": {
+    "nurse": "Nursing Assistant",
+    "market": "Marketing Coordinator",
+    "web": "Web Designer",
+    "pres": "President of Sales",
+    "dog": "Dog Trainer",
+    "medical": "Medical Assistant",
+    "post": "Posted day: October 28, 1019",
+    "exp": "3 year exp",
+    "part": "Part time"
   }
 }

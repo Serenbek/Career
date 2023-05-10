@@ -24,22 +24,66 @@ const CardInputs = () => {
           <img src={search} alt="search" />
         </button>
       </section>
-      <section className={scss.drop_down}>
-        <button className={scss.dropdown_btn}>{t("cardInput.type")}</button>
-        <ul className={scss.dropdown_menu}>
-          <li>
-            <a href="#">Item 1</a>
-          </li>
-          <li>
-            <a href="#">Item 2</a>
-          </li>
-          <li>
-            <a href="#">Item 3</a>
-          </li>
-        </ul>
-        <button>{t("cardInput.lvl")}</button>
-        <button>{t("cardInput.salary")}</button>
-        <button>{t("cardInput.benef")}</button>
+      <section className={scss.drop_content}>
+        <button className={scss.dropdown}>
+          {t("cardInput.type")}
+          <ul className={scss.dropdown_menu}>
+            <li>
+              <a href="#">Item 1</a>
+            </li>
+            <li>
+              <a href="#">Item 2</a>
+            </li>
+            <li>
+              <a href="#">Item 3</a>
+            </li>
+          </ul>
+        </button>
+
+        <button className={scss.dropdown}>
+          {t("cardInput.lvl")}
+          <ul className={scss.dropdown_menu}>
+            <li>
+              <a href="#">Item 1</a>
+            </li>
+            <li>
+              <a href="#">Item 2</a>
+            </li>
+            <li>
+              <a href="#">Item 3</a>
+            </li>
+          </ul>
+        </button>
+
+        <button className={scss.dropdown}>
+          {t("cardInput.salary")}
+          <ul className={scss.dropdown_menu}>
+            <li>
+              <a href="#">Item 1</a>
+            </li>
+            <li>
+              <a href="#">Item 2</a>
+            </li>
+            <li>
+              <a href="#">Item 3</a>
+            </li>
+          </ul>
+        </button>
+
+        <button className={scss.dropdown1}>
+          {t("cardInput.benef")}
+          <ul className={scss.dropdown_menu}>
+            <li>
+              <a href="#">Item 1</a>
+            </li>
+            <li>
+              <a href="#">Item 2</a>
+            </li>
+            <li>
+              <a href="#">Item 3</a>
+            </li>
+          </ul>
+        </button>
       </section>
       <section className={scss.filter_btn}>
         <button>
