@@ -1,20 +1,22 @@
-import React from 'react';
+import React, { useTransition } from 'react';
 import scss from './ForCandidates.module.scss'
 import btn_img from '../../../assets/images/ForCandidates/btn_img.svg'
 import ForCandidatesCard from './ForCandidatesCard/ForCanditades';
 import { ForCandidatesConst } from '../../../constants/ForCandidatesConst'
 import MyButton from '../../UI/Buttons/MyButton';
+import { useTranslation } from 'react-i18next';
 
 function ForCandidates(props) {
+    const { t } = useTranslation()
     return (
         <div className='container'>
             <div className={scss.candidates}>
                 <div className={scss.top_content}>
                     <div className={scss.top_content__title}>
-                        <p>For Candidates</p>
-                        <h1>Explore Thousands of Jobs</h1>
+                        <p>{t("candidates.cand")}</p>
+                        <h1>{t("candidates.exp")}</h1>
                     </div>
-                    <p>Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Morbi mattis ullamcorper velit.</p>
+                    <p>{t("candidates.p")}</p>
                 </div>
                 <div className={scss.bottom_content}>
                     {
@@ -26,7 +28,7 @@ function ForCandidates(props) {
                 <MyButton>
                     <>
                     <img src={btn_img} alt="img" />
-                    Upload Your CV
+                    {t("candidates.btn")}
                     </>
                 </MyButton>
             </div>

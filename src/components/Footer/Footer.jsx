@@ -8,17 +8,17 @@ import inst from '../../assets/images/footerImg/inst.svg'
 import fc from '../../assets/images/footerImg/fc.svg'
 import twitter from '../../assets/images/footerImg/twitter.svg'
 import arrow from '../../assets/images/footerImg/arrow.svg'
+import { useTranslation } from 'react-i18next';
 
 
 function Footer(props) {
+    const { t } = useTranslation(); 
     return (
         <div className='container'>
             <div className={scss.wrapper}>
                 <img src={logo} alt="" className={scss.wrapper__logo} />
                 <div className={scss.top}>
-                    <p className={scss.top__p}>The starting point for your next project 
-                        based on easy-to-customize Material-UI 
-                        © helps you build apps faster and better.</p>
+                    <p className={scss.top__p}>{t("footer.p")}</p>
                         <div className={scss.icons}>
                         <img src={fc} alt="icon" />
                         <img src={inst} alt="icon" />
@@ -33,7 +33,7 @@ function Footer(props) {
                         </div>
                         <div>
                             <img src={map} alt="" />
-                            <p>655 Schaefer Dale</p>
+                            <p>{t("footer.street")}</p>
                         </div>
                     </div>
                     <div className={scss.input}>
@@ -55,10 +55,10 @@ function Footer(props) {
                     <img src={twitter} alt="icon" />
                 </div>
                 <div className={scss.bottom}>
-                    <p>© 2021. All rights reserved</p>
+                    <p>{t("footer.copy")}</p>
                     <div>
-                        <p>Help Center</p>
-                        <p>Terms of Service</p>
+                        <p>{t("footer.help")}</p>
+                        <p>{t("footer.pp")}</p>
                     </div>
                 </div>
             </div>

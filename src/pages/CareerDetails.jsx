@@ -6,7 +6,7 @@ import Description from '../components/CareerDetails/Description/Description'
 const CareerDetails = () => {
   return (
 	<div>
-	  {/* <Header/> */}
+	  <Header/>
 	  <Hero/>
 	  {/* <Description/> */}
 	</div>

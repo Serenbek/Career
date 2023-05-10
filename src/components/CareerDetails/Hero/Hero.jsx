@@ -4,41 +4,43 @@ import marketing from '../../../assets/images/HeroImg/ic_baggage_claim.svg'
 import eye from '../../../assets/images/HeroImg/ic_eye.svg'
 import pin from '../../../assets/images/HeroImg/ic_pin.svg'
 import MyButtonWide from '../../UI/Buttons/MyButtonWide'
+import { useTranslation } from 'react-i18next';
 
 function Hero(props) {
+    const { t } = useTranslation();
     return (
             <div className={scss.wrapper}>
                 <div className={scss.top}>
                     <ul className={scss.breadcrumb}>
                         <li className={scss.breadcrumb__breadcrumbsItem}>
-                            <a className={scss.breadcrumb__breadcrumbsLink} href="/">Home</a>
+                            <a className={scss.breadcrumb__breadcrumbsLink} href="/">{t("hero.home")}</a>
                         </li>
                         <li className={scss.breadcrumb__breadcrumbsItem}>
-                            <a className={scss.breadcrumb__breadcrumbsLink} href="/CareerList">Jobs</a>
+                            <a className={scss.breadcrumb__breadcrumbsLink} href="/CareerList">{t("hero.job")}</a>
                         </li>
                         <li className={scss.breadcrumb__breadcrumbsItem}>
-                            <a className={scss.breadcrumb__breadcrumbsLink} href="/CareerList">Category</a>
+                            <a className={scss.breadcrumb__breadcrumbsLink} href="/CareerList">{t("hero.ct")}</a>
                         </li>
                         <li className={scss.breadcrumb__breadcrumbsItem}>
-                            <a className={scss.breadcrumb__breadcrumbsLink} href="/CareerDetails">President of Sales</a>
+                            <a className={scss.breadcrumb__breadcrumbsLink} href="/CareerDetails">{t("hero.ps")}</a>
                         </li>
                     </ul>
                 </div>
                 <div className={scss.bottom}>
                     <div className={scss.bottom__left}>
-                        <h1>President of Sales</h1>
+                        <h1>{t("hero.ps")}</h1>
                         <div>
                             <div>
                                 <img src={marketing} alt="icon" />
-                                <p>Marketing</p>
+                                <p>{t("hero.marketing")}</p>
                             </div>
                             <div>
                                 <img src={eye} alt="icon" />
-                                <p>286 views</p>
+                                <p>{t("hero.views")}</p>
                             </div>
                             <div>
                                 <img src={pin} alt="icon" />
-                                <p>Virgin Islands, British</p>
+                                <p>{t("hero.vi")}Virgin Islands, British</p>
                             </div>
 
                         </div>
@@ -47,15 +49,15 @@ function Hero(props) {
                         <div className={scss.bottom__buttons}>
                             <MyButtonWide>
                                 <>
-                                    <p>Apply Now</p>
+                                    <p> {t("hero.apply")}</p>
                                 </>
                             </MyButtonWide>
                                                     <input type="checkbox" />
 
                         </div>
                         <div className={scss.bottom__text}>
-                            <p>Expiration date:</p>
-                            <p className={scss.bottom__text_p}> 19 May 2026</p>
+                            <p>{t("hero.date")}</p>
+                            <p className={scss.bottom__text_p}>{t("hero.may")} </p>
                         </div>
                     </div>
                 </div>
