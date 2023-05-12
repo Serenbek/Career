@@ -194,11 +194,8 @@
 
 .filter_btn {
 	display: none;
-	justify-content: center;
-	align-items: center;
 	padding: 4px 10px;
 	gap: 8px;
-
 	width: 87px;
 	height: 34px;
 	background: #212B36;
@@ -209,9 +206,17 @@
 		background: #212B36;
 	}
 }
-
 @media screen and (max-width: 500px) {
+	.drop_content{
+		display: none;
+	}
+	.input{
+		display: none;
+	}
+	.filter{
+		align-items: end;
+	}
 	.filter_btn {
-		display: flex;
+		display: block;
 	}
 }

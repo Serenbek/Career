@@ -20,9 +20,9 @@ button, input {
   margin: 0 auto;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .container{
-    padding: 0;
+    padding: 0 40px;
     
   }
 }
@@ -31,6 +31,7 @@ h1, h2, h3, h4, h4, h5, h6{
   font-style: normal;
     font-weight: 600;
     line-height: 28px;
+    color: black;
 }
 
 p, span, b, button, input, a{
@@ -38,5 +39,6 @@ p, span, b, button, input, a{
   font-style: normal;
     font-weight: 400;
     line-height: 26px;
+    color: black;
 }
 
