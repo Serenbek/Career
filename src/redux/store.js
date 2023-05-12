@@ -10,14 +10,6 @@ const persistConfig = {
 	key: 'root',
 	storage,
 }
-//asas
-//export const store = configureStore({
-//	reducer: {
-//theme: theme
-//	},
-//})
-//aasas
-
 const rootReducer = combineReducers({
 	theme,
 	reducer,
