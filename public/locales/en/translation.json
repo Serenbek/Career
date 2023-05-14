@@ -49,7 +49,7 @@
     "may": "19 May 2026"
   },
   "footer": {
-    "p": "The starting point for your next project based on easy-to-customize Material-UI  © helps you build apps faster and better.",
+    "p": "The starting point for your next project based on easy-to-customize Material-UI helps you build apps faster and better.",
     "street": "655 Schaefer Dale",
     "copy": "© 2021. All rights reserved",
     "help": "Help Center",
@@ -84,7 +84,7 @@
     "desc": "Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there  attitude and approach.",
     "rob": "Robert Fox",
     "designer": "designer",
-    "p": "Amazing experience i love it a lot. Thanks to the team <br /> that dreams come true, great! I appreciate there <br />attitude and approach."
+    "p": "Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach."
   },
   "latest": {
     "vAll": "View all",
@@ -171,5 +171,16 @@
     "curs": "Curator of Marketing Course",
     "home": "Home",
     "blog": "Blog"
-}
+  },
+  "about":{
+    "subtitle":  "ABOUT US",
+  "title": "We Make The Best For All Our Customers.",
+  "agency": "Our Agency Has Been",
+  "agencyinfo": "Hello. Our agency has been present for over 20 years. We make the best for all our customers.",
+  "jobs": "Jobs",
+  "succ":"Successful Hiring",
+  "partners": "Partners",
+  "emplayee": "Emplayee",
+  "our": "Our Team"
+  }
 }

@@ -15,20 +15,22 @@ import FeaturedJobs from '../components/Main/FeaturedJobs/FeaturedJobs';
 
 function HomePage(props) {
     return (
-        <div>
-            <PostJobBlock />
-            <ForCandidates/>
-            <FeaturedJobs/>
-            <TopCompanies/>
-            <HotCategories/>
-            <Say/>
-            <ClientBlock />
-            <Latest/>
-            <DownloadAppBlock/>
-            <GetBlockJob />
-            {/* <GlobalConnectionBlock/> */}
-            <Footer/>
+      <>
+        <div className="container">
+          <PostJobBlock />
+          <ForCandidates />
+          <FeaturedJobs />
+          <TopCompanies />
+          <HotCategories />
+          <Say />
+          <ClientBlock />
+          <Latest />
+          <DownloadAppBlock />
+          {/*<GlobalConnectionBlock />*/}
         </div>
+          <GetBlockJob />
+        <Footer />
+      </>
     );
 }
 

@@ -12,7 +12,6 @@ function PostJobBlock() {
 
     return (
         <div className={css.background}>
-            <div className='container'>
                 <Header/>
 
                 <div className={css.wrapper}>
@@ -28,7 +27,6 @@ function PostJobBlock() {
                     <img className={css.main__img } src={mainImg} alt="" />
                 </div>
             </div>
-        </div>
     )
 }
 

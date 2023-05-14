@@ -19,7 +19,7 @@ const FeaturedJobs = () => {
     const { t } = useTranslation();
   const cardItems = cardListData.slice(0,6);
   return (
-    <div className="container">
+    <>
       <header className={scss.header}>
         <div className={scss.header_info}>
           <p> {t("featured.headInfo")}</p>
@@ -87,7 +87,7 @@ const FeaturedJobs = () => {
           {t("featured.veiw")} <img src={right} alt="" />
         </Link>
       </footer>
-    </div>
+    </>
   );
 };
 

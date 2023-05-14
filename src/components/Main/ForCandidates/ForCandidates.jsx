@@ -9,7 +9,6 @@ import { useTranslation } from 'react-i18next';
 function ForCandidates(props) {
     const { t } = useTranslation()
     return (
-        <div className='container'>
             <div className={scss.candidates}>
                 <div className={scss.top_content}>
                     <div className={scss.top_content__title}>
@@ -32,7 +31,6 @@ function ForCandidates(props) {
                     </>
                 </MyButton>
             </div>
-        </div>
     );
 }
 

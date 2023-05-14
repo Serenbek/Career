@@ -11,7 +11,6 @@ function HotCategories(props) {
     const { t } = useTranslation(); 
 
     return (
-        <div className="container">
             <div className={scss.wrapper}>
                 <h1>{t("hot.hhot")}</h1>
                 <div className={scss.cards}>
@@ -30,7 +29,6 @@ function HotCategories(props) {
                 </ClearButton>
                 </div>
             </div>
-        </div>
     );
 }
 
