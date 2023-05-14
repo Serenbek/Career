@@ -1,0 +1,96 @@
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	margin: 80px 0;
+	h1{
+font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 64px;
+	color: #212B36;
+	margin-bottom: 30px;
+	text-align: center;
+	}
+	p{
+font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	text-align: center;
+	color: #637381;
+	margin-bottom: 40px;
+	}
+}
+
+.wrap_team{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	.team_prof{
+		width: 250px;
+			height: 200px;
+			position: relative;
+		img{
+			width: 250px;
+				height: 200px;
+				object-fit: cover;
+		}
+		.prof_hover{
+	position: absolute;
+		top: 0;
+		left: 0;
+		width: 250px;
+		height: 200px;
+		background-color: #000000;
+		display: none;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: center;
+		padding-bottom: 21px;
+	animation: myAnim 1s ease 0s 1 normal forwards;
+		h6{
+			font-style: normal;
+				font-weight: 600;
+				font-size: 18px;
+				line-height: 28px;
+				color: #FFFFFF;
+		}
+		p{
+			font-style: normal;
+				font-weight: 400;
+				font-size: 13px;
+				line-height: 24px;
+				color: #FFFFFF;
+				opacity: 0.72;
+		}
+	div{
+	width: 60%;
+	display: flex;
+	justify-content: space-evenly;
+		img {
+				width: 12px;
+				height: 12px;
+			}
+	}
+		}
+
+		&:hover .prof_hover{
+	display: flex;
+		}
+	}
+}
+
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: rotateX(100deg);
+		transform-origin: bottom;
+	}
+
+	100% {
+		opacity: 0.7;
+		transform: rotateX(0);
+		transform-origin: bottom;
+	}
+}

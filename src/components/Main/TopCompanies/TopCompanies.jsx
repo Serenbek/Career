@@ -63,7 +63,6 @@ function TopCompanies(props) {
   };
 
   return (
-    <div className='container'>
       <div className={scss.wrapper}>
         <h1>Top Companies</h1>
         <Slider ref={arrowRef} {...settings}>
@@ -74,7 +73,6 @@ function TopCompanies(props) {
             }
         </Slider>
       </div>
-    </div>
   );
 }
 

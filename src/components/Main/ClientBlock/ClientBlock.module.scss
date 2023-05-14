@@ -31,30 +31,36 @@
         }
     }
     .images{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+            display: flex;
+                gap: 20px;
+                align-items: center;
+                flex-wrap: wrap;
+                justify-content: center;
         .card{
             padding: 24px 0px;
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 172px;
+            width: 122px;
             height: 80px;
             border: 1px solid rgba(145, 158, 171, 0.24);
             border-radius: 16px;
-            @media only screen and (min-width: 900px) and (max-width:1400px){
+            img{
+                width: 85px;
+                height: 25px;
+            }
+            @media only screen and (max-width: 900px){
                 width: 97px;
                 height: 80px;
             }
-            @media only screen and  (max-width:900px){
+            @media only screen and  (max-width:700px){
                 display: none;
             }
         }
         .extra{
             @media only screen and (max-width:900px){
                 display: flex;
-                justify-content: space-between;
+                justify-content: space-evenly;
                 width: 100%; 
             }
         .card__none{
