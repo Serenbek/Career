@@ -1,9 +1,13 @@
 @import '../../../styles/variables.scss';
 
 .wrapper {
+    padding: 50px 0;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     gap: 80px;
+    margin: 0 -162px;
+    background-color: #F9FAFB;
 
     h1 {
         font-weight: 700;
@@ -63,6 +67,28 @@
     }
 }
 
+@media (max-width: 900px) {
+    .wrapper {
+        margin: 0 -58px;
+
+        h1 {
+            font-size: 32px;
+            line-height: 42px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        .top {
+            p {
+                font-size: 14px;
+                width: 90%;
+            }
+        }
+    }
+}
+
 @media (max-width: 414px) {
     .wrapper {
         h1 {
@@ -71,10 +97,6 @@
         }
 
         gap: 64px;
-        .top{
-            p{
-                width: 335px;
-            }
-        }
+
     }
 }
