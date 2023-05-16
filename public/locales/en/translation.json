@@ -130,6 +130,72 @@
     "exp": "3 year exp",
     "part": "Part time"
   },
+
+  "desc": {
+    "title": "Job Description",
+    "tt": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    "li1": "Working with agency for design drawing detail, quotation and local production",
+    "li2": "Produce window displays, signs, interior displays, floor plans and special promotions displays",
+    "li3": "Change displays to promote new product launches and reflect festive or seasonal themes",
+    "li4": "Planning and executing the open/renovation/ closing store procedure",
+    "li5": "Follow‐up store maintenance procedure and keep updating SKU In & Out",
+    "li6": "Monitor costs and work within budget",
+    "li7": "Liaise with suppliers and source elements",
+    "here": "Why You'll Love Working Here",
+    "p": "Key Responsibilities"
+  },
+  "benefits": {
+    "title": "Other Benefits",
+    "bonus": "Bonus",
+    "free": "Free",
+    "travel": "travel",
+    "train": "Training",
+    "dev": "Training",
+    "care": "Health care"
+  },
+  "share":{
+    "sh": "Share:"
+  },
+  "locations":{
+    "loc": "Location"
+  }, 
+   "skills":{
+    "job": "Job Skills",
+    "photo": "Photography",
+    "design": "Design",
+    "art": "Art",
+    "history": "Histoty",
+    "useums": "Museums",
+    "creativ": "Creativity",
+    "artHistory": "Art History"
+  },
+  "sideBar":{
+    "drop": "Dropbox",
+    "view": "View Company Profile",
+    "jobs": "Jobs From This Company",
+    "market": "Marketing Coordinator",
+    "dog": "Dog Trainer",
+    "nursing": "Nursing Assistant",
+    "date": "Expiration date May 19, 2026",
+    "adv": "Advertisement",
+    "donec": "Duis leo. Donec orci lectus, aliquam ut, faucibus non",
+    "go": "Go Now"
+  },
+  "side": {
+    "title1": "Date Posted",
+    "title2": "Expiration date",
+    "title3": "Offered Salary (month)",
+    "title4": "Experience",
+    "title5": "Level",
+    "title6": "Language",
+    "desc1": " October 24, 2018",
+    "desc2": "Expires in 7 days",
+    "desc3": "$1,250 ~ $3000",
+    "desc4": "3 Years",
+    "desc5": "Intern/Student",
+    "desc6": "Any"},
+
+
   "TBSTcli1": "Marketing",
   "TBSTcli2": "Community",
   "TBSTcli3": "Tutorials",
@@ -150,7 +216,8 @@
   "blogul9": "Tutorials",
   "adv": "Advertisement",
   "quotes": "With great power comes great responsibility",
-  "gonow": "Go now",
+  "gonow": "Go now",},
+  
   "blog":{
     "title":"How to Maximize Your ROI Through Scientific SEM?",
     "post1":"The lower a person's soul, the higher he turns up his nose.He stretches his nose to where his soul has not grown up.",
@@ -183,4 +250,5 @@
   "emplayee": "Emplayee",
   "our": "Our Team"
   }
+
 }
