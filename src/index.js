@@ -9,10 +9,14 @@ import { RingLoader } from 'react-spinners';
 import { Provider } from 'react-redux'
 import store, { persistor } from './redux/store'
 import { PersistGate } from 'redux-persist/integration/react';
+import { Helmet } from 'react-helmet';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store}>
+    <Helmet>
+      <link rel="icon" href="./assets/icon/logo.svg" />
+    </Helmet>
     <PersistGate loading={null} persistor={persistor}>
     <React.Suspense fallback={<RingLoader color="#36d7b7"
       cssOverride={{ margin: "280px auto"}}

@@ -49,7 +49,7 @@
     "may": "19 May 2026"
   },
   "footer": {
-    "p": "The starting point for your next project based on easy-to-customize Material-UI  © helps you build apps faster and better.",
+    "p": "The starting point for your next project based on easy-to-customize Material-UI helps you build apps faster and better.",
     "street": "655 Schaefer Dale",
     "copy": "© 2021. All rights reserved",
     "help": "Help Center",
@@ -84,7 +84,7 @@
     "desc": "Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there  attitude and approach.",
     "rob": "Robert Fox",
     "designer": "designer",
-    "p": "Amazing experience i love it a lot. Thanks to the team <br /> that dreams come true, great! I appreciate there <br />attitude and approach."
+    "p": "Amazing experience i love it a lot. Thanks to the team that dreams come true, great! I appreciate there attitude and approach."
   },
   "latest": {
     "vAll": "View all",
@@ -130,71 +130,58 @@
     "exp": "3 year exp",
     "part": "Part time"
   },
-  "desc": {
-    "title": "Job Description",
-    "tt": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-    "li1": "Working with agency for design drawing detail, quotation and local production",
-    "li2": "Produce window displays, signs, interior displays, floor plans and special promotions displays",
-    "li3": "Change displays to promote new product launches and reflect festive or seasonal themes",
-    "li4": "Planning and executing the open/renovation/ closing store procedure",
-    "li5": "Follow‐up store maintenance procedure and keep updating SKU In & Out",
-    "li6": "Monitor costs and work within budget",
-    "li7": "Liaise with suppliers and source elements",
-    "here": "Why You'll Love Working Here",
-    "p": "Key Responsibilities"
+  "TBSTcli1": "Marketing",
+  "TBSTcli2": "Community",
+  "TBSTcli3": "Tutorials",
+  "TBSTcli4": "Business",
+  "TBSTcli5": "Management",
+  "blog1": "Understanding color theory: the color wheel and finding...",
+  "blog2": "How to design a product that can grow itself 10x in year",
+  "blog3": "Any mechanical keyboard enthusiasts in design?",
+  "blog4": "Yo Reddit! What’s a small thing that anyone can do at nearly...ign?",
+  "blogul1": "Marketing",
+  "blogul2": "Devolopment",
+  "blogul3": "Banking",
+  "blogul4": "HR&Recruting",
+  "blogul5": "Design",
+  "blogul6": "Management",
+  "blogul7": "Business",
+  "blogul8": "Community",
+  "blogul9": "Tutorials",
+  "adv": "Advertisement",
+  "quotes": "With great power comes great responsibility",
+  "gonow": "Go now",
+  "blog":{
+    "title":"How to Maximize Your ROI Through Scientific SEM?",
+    "post1":"The lower a person's soul, the higher he turns up his nose.He stretches his nose to where his soul has not grown up.",
+    "post": "The more a person is silent, the more he begins to speak intelligently.",
+    "postMay":"May",
+    "minread": "min read",
+    "categ": "Categories",
+    "recen" :"Recent Posts",
+    "tags": "Popular tags",
+    "read": "Read more"
   },
-  "benefits": {
-    "title": "Other Benefits",
-    "bonus": "Bonus",
-    "free": "Free",
-    "travel": "travel",
-    "train": "Training",
-    "dev": "Training",
-    "care": "Health care"
+  "blogDetail":{
+    "text": "The root directory of a React project is the top-level directory that contains all of your project's files and folders. This is typically the directory that you run your development server from and where your package.json file is located.",
+    "title":"The Complete Digital Marketing Course - 12 Courses in 1",
+    "text1": "The root directory of a React project is the top-level directory that contains all of your project's files and folders. This is typically the directory that you run your development server from and where your package.json file is located.",
+    "text2": "src/: This folder contains the source code for your React app.public/: This folder contains the public files that are served by your development server, such as your index.html file.",
+    "title2": "If you are unsure of where your",
+    "curs": "Curator of Marketing Course",
+    "home": "Home",
+    "blog": "Blog"
   },
-  "share":{
-    "sh": "Share:"
-  },
-  "locations":{
-    "loc": "Location"
-  }, 
-   "skills":{
-    "job": "Job Skills",
-    "photo": "Photography",
-    "design": "Design",
-    "art": "Art",
-    "history": "Histoty",
-    "useums": "Museums",
-    "creativ": "Creativity",
-    "artHistory": "Art History"
-  },
-  "sideBar":{
-    "drop": "Dropbox",
-    "view": "View Company Profile",
-    "jobs": "Jobs From This Company",
-    "market": "Marketing Coordinator",
-    "dog": "Dog Trainer",
-    "nursing": "Nursing Assistant",
-    "date": "Expiration date May 19, 2026",
-    "adv": "Advertisement",
-    "donec": "Duis leo. Donec orci lectus, aliquam ut, faucibus non",
-    "go": "Go Now"
-  },
-  "side": {
-    "title1": "Date Posted",
-    "title2": "Expiration date",
-    "title3": "Offered Salary (month)",
-    "title4": "Experience",
-    "title5": "Level",
-    "title6": "Language",
-    "desc1": " October 24, 2018",
-    "desc2": "Expires in 7 days",
-    "desc3": "$1,250 ~ $3000",
-    "desc4": "3 Years",
-    "desc5": "Intern/Student",
-    "desc6": "Any"
-
-
+  "about":{
+    "subtitle":  "ABOUT US",
+  "title": "We Make The Best For All Our Customers.",
+  "agency": "Our Agency Has Been",
+  "agencyinfo": "Hello. Our agency has been present for over 20 years. We make the best for all our customers.",
+  "jobs": "Jobs",
+  "succ":"Successful Hiring",
+  "partners": "Partners",
+  "emplayee": "Emplayee",
+  "our": "Our Team"
   }
 
 }

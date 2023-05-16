@@ -25,21 +25,21 @@
                 text-transform: uppercase;
                 color: #919EAB;
             }
-
+p{
+    font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #919EAB;
+}
             h1 {
                 font-weight: 700;
                 font-size: 48px;
                 line-height: 64px;
                 color: $main-black-light02;
-            }
-
-            p {
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 28px;
-                color: $main-black-light01;
-            }
+            
         }
+    }
 
         button {
             font-weight: 600;
@@ -58,7 +58,6 @@
     .bottom {
         display: flex;
         flex-direction: row;
-        // align-items: flex-start;
         padding: 0px;
         gap: 32px;
 
@@ -66,6 +65,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 32px;
+            justify-items: center
         }
 
         .post {
@@ -147,7 +147,7 @@
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 700px) {
     .wrapper {
         gap: 64px;
         .btnO{
@@ -170,6 +170,8 @@
                 h1 {
                     font-size: 32px;
                     line-height: 42px;
+                    text-align: center;
+                    margin: 20px 0;
                 }
 
                 p {

@@ -4,13 +4,12 @@ import bigPhone from '../../../assets/images/downloadApp/07.svg'
 import apple from '../../../assets/images/downloadApp/apple.svg'
 import googleP from '../../../assets/images/downloadApp/googleP.svg'
 import i18n from "i18next";
-import { useTranslation, initReactI18next } from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 function DownloadAppBlock() {
     const { t } = useTranslation();
     return (
         <div className={css.wrapper}>
-            <div className='container'>
                 <div className={css.components}>
                     <div className={css.left}>
                         <div className={css.info}>
@@ -37,7 +36,6 @@ function DownloadAppBlock() {
                     <img className={css.main__img} src={bigPhone} alt="" />
                 </div>
             </div>
-        </div>
     )
 }
 

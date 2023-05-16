@@ -18,6 +18,7 @@ function App() {
 
   return (
     <div className={isDark ? "dark" : ''}>
+      
       <Routes>
         <Route path="/" element={<HomePage/>} />
         <Route path="/CareerList" element={<CareerList/>} />

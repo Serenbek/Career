@@ -48,7 +48,7 @@ function GlobalConnectionBlock() {
             },
         ],
     };
-    const { i18n, t } = useTranslation();
+    const { t } = useTranslation();
 
     return (
 
