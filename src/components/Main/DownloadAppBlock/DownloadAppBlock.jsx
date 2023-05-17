@@ -3,7 +3,6 @@ import css from './DownloadAppBlock.module.scss'
 import bigPhone from '../../../assets/images/downloadApp/07.svg'
 import apple from '../../../assets/images/downloadApp/apple.svg'
 import googleP from '../../../assets/images/downloadApp/googleP.svg'
-import i18n from "i18next";
 import { useTranslation } from "react-i18next";
 
 function DownloadAppBlock() {

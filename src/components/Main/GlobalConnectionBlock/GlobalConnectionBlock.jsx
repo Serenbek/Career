@@ -4,11 +4,10 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import css from './GlobalConnectionBlock.module.scss'
 import { useTranslation } from "react-i18next";
-import backImg from '../../../assets/images/globalconnectionImg/backImg.svg'
-
+// import backImg from '../../../assets/images/globalconnectionImg/backImg.svg'
 import rightArrL from '../../../assets/images/globalconnectionImg/lightRightArr.svg'
-import rightArr from '../../../assets/images/globalconnectionImg/rightArrow.svg'
-import leftArr from '../../../assets/images/globalconnectionImg/leftArrow.svg'
+// import rightArr from '../../../assets/images/globalconnectionImg/rightArrow.svg'
+// import leftArr from '../../../assets/images/globalconnectionImg/leftArrow.svg'
 import GlobalContent from '../../Main/GlobalConnectionBlock/globalContent'
 import { GlobalConnectionCons } from '../../../constants/GlobalConnectionConst';
 

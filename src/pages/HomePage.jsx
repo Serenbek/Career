@@ -26,7 +26,7 @@ function HomePage(props) {
           <ClientBlock />
           <Latest />
           <DownloadAppBlock />
-          {/*<GlobalConnectionBlock />*/}
+          <GlobalConnectionBlock />
         </div>
           <GetBlockJob />
         <Footer />
