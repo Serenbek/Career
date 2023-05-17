@@ -1,4 +1,3 @@
-import { cardListData } from "../../../constants/cardListData";
 import cn from "classnames";
 import { useState } from "react";
 import ReactPaginate from "react-paginate";
@@ -22,10 +21,19 @@ import { useTranslation } from "react-i18next";
 const CardListMain = () => {
   const dispatch = useDispatch();
   const cart = useSelector((state) => state.reducer.cartItems);
-  console.log(cart.map((i) => console.log(i.id)));
-  console.log(addToCart.id);
-  console.log(cart.title);
+  const [users, setUsers] = useState([])
+  useEffect( () => {
+     fetch(
+      "https://6463d7be127ad0b8f892c3cd.mockapi.io/job",
+    ).then((response) => response.json())
+.then((data) =>{
+  setUsers(data);
+  console.log(users)
+})
+  }, []);
 
+
+console.log(users);
   const { t } = useTranslation();
   const [favorites, setFavorites] = useState([]);
   console.log(favorites);
@@ -46,11 +54,11 @@ const CardListMain = () => {
 
   useEffect(() => {
     const endOffset = itemOffset + itemsPerPage;
-    setCurrentItems(cardListData.slice(itemOffset, endOffset));
-    setPageCount(Math.ceil(cardListData.length / itemsPerPage));
-  }, [itemOffset, itemsPerPage]);
+    setCurrentItems(users.slice(itemOffset, endOffset));
+    setPageCount(Math.ceil(users.length / itemsPerPage));
+  }, [itemOffset, itemsPerPage, users]);
   const handlePageClick = (event) => {
-    const newOffset = (event.selected * itemsPerPage) % cardListData.length;
+    const newOffset = (event.selected * itemsPerPage) % users.length;
 
     setItemOffset(newOffset);
   };

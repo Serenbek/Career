@@ -1,307 +1,119 @@
-.wrapper {
+.wrapper{
+  padding: 169px 0;
+}
+
+.content{
   display: flex;
-  flex-direction: row;
-  padding: 70px 0;
-
-
-  .main__img {
-    width: 438px;
-    height: 665.44px;
-
-    @media only screen and (max-width: 1300px) {
-      background: rgba(250, 84, 28, 0.08);
-      border-radius: 24px;
-      justify-content: center;
+    background: rgba(250, 84, 28, 0.08);
+    border-radius: 24px;
+    padding: 120px 80px;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    .info{
+      width: 50%;
+      margin-bottom: 50px;
+      h1{
+        font-style: normal;
+          font-weight: 700;
+          font-size: 42px;
+          line-height:  50px;
+          color: #212B36;
+          margin-bottom: 24px;
+      }
+      p{
+        font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 28px;
+          color: #212B36;
+      }
     }
+}
 
-    .components {
+.btns{
       display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      margin: 100px 0px;
-      background: rgba(250, 84, 28, 0.08);
-      border-radius: 24px;
-      padding: 0 90px;
-
-      @media only screen and (max-width:1300px) {
-        display: flex;
-        flex-direction: column;
-        padding: 40px 0 0 0;
-        background: none;
+        gap: 30px;
+  p{
+    font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+      text-align: center;
+      color: #FFFFFF;
+  }
+  h1{
+    font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 28px;
+      text-align: center;
+      color: #FFFFFF;
+  }
+  button{
+   width: fit-content;
+      padding-left: 20px;
+      padding-right: 12px;
+      gap: 8px;
+      background: linear-gradient(180deg, #161C24 0%, #000000 100%);
+      border: 1px solid rgba(0, 0, 0, 0.24);
+      border-radius: 8px;
+      position: relative;
+     div{
+      padding-left: 35px;
+     }
+      img{
+        position: absolute;
+            top: 17px;
+              left: 10px;
       }
+  }
+}
 
-      .main__img {
-        height: 665.44px;
+.content_img{
+  width: fit-content;
+  position: absolute;
+  right: -90px;
+  top: -50px;
+  object-fit: cover;
+}
 
-        @media only screen and (max-width:1300px) {
-          height: 448px;
+@media screen and (max-width: 1200px) {
+  .content{
+        padding-bottom: 687px;
+        align-items: center;
+        .info{
+          width: 90%;
+            margin-bottom: 50px;
+            text-align: center;
         }
+  }
+  .content_img{
+      position: absolute;
+        right: 0%;
+        top: 45%;
+  }
+}
 
+@media screen and (max-width: 700px) {
+    .content {
+        padding-bottom: 375px;
+        padding-top: 36px;
       }
+  .content_img{
+        right: 20%;
+        top: 58%;
+   img{
+    width: 300px;
+   }
+  }
+  .btns{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 510px) {
 
-
-      .main__img {
-        width: 438px;
-        height: 665.44px;
-
-        @media only screen and (max-width: 1300px) {
-          background: rgba(250, 84, 28, 0.08);
-          border-radius: 24px;
-          justify-content: center;
-        }
-
-        flex-direction: column;
-        padding: 40px 0 0 0;
-        background: none;
-      }
-
-      .main__img {
-        height: 665.44px;
-
-        @media only screen and (max-width: 1300px) {
-          height: 448px;
-
-          @media only screen and (max-width:1300px) {
-            background: rgba(250, 84, 28, 0.07);
-            border-radius: 24px;
-            justify-content: center;
-          }
-
-          .components {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            margin: 50px 0px;
-            background: rgba(250, 84, 28, 0.08);
-            border-radius: 24px;
-            padding: 0 90px;
-            height: 498px;
-            width: 1152px;
-
-            @media only screen and (max-width:1300px) {
-              display: flex;
-              flex-direction: column;
-              background: none;
-              margin: 0;
-              height: 638px;
-              width: auto;
-            }
-
-            .main__img {
-              height: 665.44px;
-              position: absolute;
-              right: 152px;
-              top: 4640px;
-
-              @media only screen and (max-width:1300px) {
-                height: 448px;
-                position: inherit;
-              }
-            }
-
-            .left {
-              display: flex;
-              gap: 40px;
-              flex-direction: column;
-
-              @media only screen and (max-width:1300px) {
-                margin-bottom: 50px;
-              }
-
-              .info {
-                width: 370px;
-                gap: 30px;
-                display: flex;
-                flex-direction: column;
-
-                @media only screen and (max-width:1300px) {
-                  width: 335px;
-                  text-align: center;
-                  align-items: center;
-                }
-              }
-
-              .title {
-                font-family: 'Barlow';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 48px;
-                line-height: 64px;
-              }
-
-              .text {
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 28px;
-              }
-
-              .two__btns {
-                display: flex;
-                align-items: center;
-                gap: 20px;
-
-                button {
-                  display: flex;
-                  flex-direction: row;
-                  justify-content: center;
-                  align-items: center;
-                  padding: 0px 11px;
-                  gap: 8px;
-                  width: 162px;
-                  height: 56px;
-                  background: linear-gradient(180deg, #161C24 0%, #000000 100%);
-                  border: 1px solid rgba(0, 0, 0, 0.24);
-                  border-radius: 8px;
-
-                  p {
-                    font-family: 'Poppins';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 12px;
-                    line-height: 20px;
-                    opacity: 0.72;
-                    color: #ffff;
-                  }
-
-                  h1 {
-                    font-family: 'Barlow';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 18px;
-                    line-height: 28px;
-                    color: #ffff;
-                  }
-                }
-
-                display: flex;
-                flex-direction: row;
-
-                .main__img {
-                  width: 438px;
-                  height: 665.44px;
-
-                  @media only screen and (max-width: 1300px) {
-                    background: rgba(250, 84, 28, 0.08);
-                    border-radius: 24px;
-                    justify-content: center;
-                  }
-
-                  .components {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-between;
-                    align-items: center;
-                    margin: 100px 0px;
-                    background: rgba(250, 84, 28, 0.08);
-                    border-radius: 24px;
-                    padding: 0 90px;
-
-                    @media only screen and (max-width: 1300px) {
-                      display: flex;
-                      flex-direction: column;
-                      padding: 40px 0 0 0;
-                      background: none;
-                    }
-
-                    .main__img {
-                      height: 665.44px;
-
-                      @media only screen and (max-width: 1300px) {
-                        height: 448px;
-                      }
-                    }
-
-                    .left {
-                      display: flex;
-
-                      gap: 30px;
-                      flex-direction: column;
-                      gap: 40px;
-                      flex-direction: column;
-
-                      @media only screen and (max-width: 1300px) {
-                        margin-bottom: 50px;
-                      }
-
-                      .info {
-                        width: 370px;
-                        gap: 30px;
-                        display: flex;
-                        flex-direction: column;
-
-                        @media only screen and (max-width: 1300px) {
-                          width: 335px;
-                          text-align: center;
-                          align-items: center;
-                        }
-                      }
-
-                      .title {
-                        font-family: "Barlow";
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: 48px;
-                        line-height: 64px;
-                      }
-
-                      .text {
-                        font-family: "Poppins";
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 16px;
-                        line-height: 28px;
-                      }
-
-                      .two__btns {
-                        display: flex;
-                        align-items: center;
-                        gap: 20px;
-
-                        button {
-                          display: flex;
-                          flex-direction: row;
-                          justify-content: center;
-                          align-items: center;
-                          padding: 0px 12px;
-                          gap: 8px;
-                          width: 162px;
-                          height: 56px;
-                          background: linear-gradient(180deg, #161c24 0%, #000000 100%);
-                          border: 1px solid rgba(0, 0, 0, 0.24);
-                          border-radius: 8px;
-
-                          p {
-                            font-family: "Poppins";
-                            font-style: normal;
-                            font-weight: 400;
-                            font-size: 12px;
-                            line-height: 20px;
-                            opacity: 0.72;
-                            color: #ffff;
-                          }
-
-                          h1 {
-                            font-family: "Barlow";
-                            font-style: normal;
-                            font-weight: 600;
-                            font-size: 18px;
-                            line-height: 28px;
-                            color: #ffff;
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
+  .content_img{
+    right: 10%;
   }
 }

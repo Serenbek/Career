@@ -1,4 +1,3 @@
-import {cardListData} from "../../../constants/cardListData";
 import cn from "classnames";
 import useTheme from "../../../hooks/useTheme";
 import scss from './FeaturedJobs.module.scss'
@@ -13,11 +12,22 @@ import userlike from "../../../assets/listCard/like.png";
 import right from '../../../assets/icon/arrowRight.png'
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { useState } from "react";
+import { useEffect } from "react";
 
 const FeaturedJobs = () => {
   	const isDark = useTheme();
     const { t } = useTranslation();
-  const cardItems = cardListData.slice(0,6);
+     const [users, setUsers] = useState([]);
+     useEffect(() => {
+       fetch("https://6463d7be127ad0b8f892c3cd.mockapi.io/job")
+         .then((response) => response.json())
+         .then((data) => {
+           setUsers(data);
+           console.log(users);
+         });
+        }, []);
+        const cardItems = users?.slice(0,6);
   return (
     <>
       <header className={scss.header}>
