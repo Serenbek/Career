@@ -130,6 +130,7 @@
     "exp": "3 year exp",
     "part": "Part time"
   },
+  "blogBlog": {
   "TBSTcli1": "Marketing",
   "TBSTcli2": "Community",
   "TBSTcli3": "Tutorials",
@@ -150,21 +151,21 @@
   "blogul9": "Tutorials",
   "adv": "Advertisement",
   "quotes": "With great power comes great responsibility",
-  "gonow": "Go now",
-  "blog":{
-    "title":"How to Maximize Your ROI Through Scientific SEM?",
-    "post1":"The lower a person's soul, the higher he turns up his nose.He stretches his nose to where his soul has not grown up.",
+  "gonow": "Go now"},
+  "blog": {
+    "title": "How to Maximize Your ROI Through Scientific SEM?",
+    "post1": "The lower a person's soul, the higher he turns up his nose.He stretches his nose to where his soul has not grown up.",
     "post": "The more a person is silent, the more he begins to speak intelligently.",
-    "postMay":"May",
+    "postMay": "May",
     "minread": "min read",
     "categ": "Categories",
-    "recen" :"Recent Posts",
+    "recen": "Recent Posts",
     "tags": "Popular tags",
     "read": "Read more"
   },
-  "blogDetail":{
+  "blogDetail": {
     "text": "The root directory of a React project is the top-level directory that contains all of your project's files and folders. This is typically the directory that you run your development server from and where your package.json file is located.",
-    "title":"The Complete Digital Marketing Course - 12 Courses in 1",
+    "title": "The Complete Digital Marketing Course - 12 Courses in 1",
     "text1": "The root directory of a React project is the top-level directory that contains all of your project's files and folders. This is typically the directory that you run your development server from and where your package.json file is located.",
     "text2": "src/: This folder contains the source code for your React app.public/: This folder contains the public files that are served by your development server, such as your index.html file.",
     "title2": "If you are unsure of where your",
@@ -172,15 +173,15 @@
     "home": "Home",
     "blog": "Blog"
   },
-  "about":{
-    "subtitle":  "ABOUT US",
-  "title": "We Make The Best For All Our Customers.",
-  "agency": "Our Agency Has Been",
-  "agencyinfo": "Hello. Our agency has been present for over 20 years. We make the best for all our customers.",
-  "jobs": "Jobs",
-  "succ":"Successful Hiring",
-  "partners": "Partners",
-  "emplayee": "Emplayee",
-  "our": "Our Team"
+  "about": {
+    "subtitle": "ABOUT US",
+    "title": "We Make The Best For All Our Customers.",
+    "agency": "Our Agency Has Been",
+    "agencyinfo": "Hello. Our agency has been present for over 20 years. We make the best for all our customers.",
+    "jobs": "Jobs",
+    "succ": "Successful Hiring",
+    "partners": "Partners",
+    "emplayee": "Emplayee",
+    "our": "Our Team"
   }
 }
