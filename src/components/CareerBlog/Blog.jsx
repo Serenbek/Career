@@ -146,10 +146,10 @@ const Blog = () => {
               })}
             >
               <li>{t("blogBlog.TBSTcli1")}</li> 
-              <li>{t("TBSTcli2")}</li>
-              <li>{t("TBSTcli3")}</li>
-              <li>{t("TBSTcli4")}</li>
-              <li>{t("TBSTcli5")}</li>
+              <li>{t("blogBlog.TBSTcli2")}</li>
+              <li>{t("blogBlog.TBSTcli3")}</li>
+              <li>{t("blogBlog.TBSTcli4")}</li>
+              <li>{t("blogBlog.TBSTcli5")}</li>
             </ul>
           </div>
 
@@ -159,7 +159,7 @@ const Blog = () => {
                 dark_text: isDark,
               })}
             >
-              {t("blog.recen")}
+              {t("blogBlog.recen")}
             </h2>
             <div className={scss.side_card}>
               <img src={side1} alt="" />
@@ -169,11 +169,11 @@ const Blog = () => {
                     dark_text: isDark,
                   })}
                 >
-                  {t("blog1")}
+                  {t("blogBlog.blog1")}
                 </p>
                 <p className={scss.subTitle}>
-                  {t("blog.postMay")} 7,2017{" "}
-                  <span className={scss.dot}>&#183;</span> 8 {t("blog.minread")}
+                  {t("blogBLog.postMay")} 7,2017{" "}
+                  <span className={scss.dot}>&#183;</span> 8 {t("blogBlog.minread")}
                 </p>
               </div>
             </div>
@@ -185,11 +185,11 @@ const Blog = () => {
                     dark_text: isDark,
                   })}
                 >
-                  {t("blog2")}
+                  {t("blogBlog.blog2")}
                 </p>
                 <p className={scss.subTitle}>
-                  {t("blog.postMay")} 7,2017{" "}
-                  <span className={scss.dot}>&#183;</span> 8 {t("blog.minread")}
+                  {t("blogBLog.postMay")} 7,2017{" "}
+                  <span className={scss.dot}>&#183;</span> 8 {t("blogBlog.minread")}
                 </p>
               </div>
             </div>
@@ -201,11 +201,8 @@ const Blog = () => {
                     dark_text: isDark,
                   })}
                 >
-                  {t("blog3")}
-                </p>
-                <p className={scss.subTitle}>
-                  {t("blog.postMay")} 17,2020{" "}
-                  <span className={scss.dot}>&#183;</span> 8 {t("blog.minread")}
+                  {t("blogBlog.postMay")} 17,2020{" "}
+                  <span className={scss.dot}>&#183;</span> 8 {t("blogBlog.minread")}
                 </p>
               </div>
             </div>
@@ -217,11 +214,11 @@ const Blog = () => {
                     dark_text: isDark,
                   })}
                 >
-                  {t("blog4")}
+                  {t("blogBlog.blog4")}
                 </p>
                 <p className={scss.subTitle}>
-                  {t("blog.postMay")} 10,2018{" "}
-                  <span className={scss.dot}>&#183;</span> 8 {t("blog.minread")}
+                  {t("blogBlog.postMay")} 10,2018{" "}
+                  <span className={scss.dot}>&#183;</span> 8 {t("blogBlog.minread")}
                 </p>
               </div>
             </div>
@@ -232,18 +229,18 @@ const Blog = () => {
                 dark_text: isDark,
               })}
             >
-              {t("blog.tags")}
+              {t("blogBlog.tags")}
             </h2>
             <div className={scss.tag_btn}>
-              <button>{t("blogul1")}</button>
-              <button>{t("blogul2")}</button>
-              <button>{t("blogul3")}</button>
-              <button>{t("blogul4")}</button>
-              <button>{t("blogul5")}</button>
-              <button>{t("blogul6")}</button>
-              <button>{t("blogul7")}</button>
-              <button>{t("blogul8")}</button>
-              <button>{t("blogul8")}</button>
+              <button>{t("blogBlog.blogul1")}</button>
+              <button>{t("blogBlog.blogul2")}</button>
+              <button>{t("blogBlog.blogul3")}</button>
+              <button>{t("blogBlog.blogul4")}</button>
+              <button>{t("blogBlog.blogul5")}</button>
+              <button>{t("blogBlog.blogul6")}</button>
+              <button>{t("blogBlog.blogul7")}</button>
+              <button>{t("blogBlog.blogul8")}</button>
+              <button>{t("blogBlog.blogul8")}</button>
             </div>
             <div className={scss.side_info}>
               <h3>{t("adv")}</h3>
@@ -270,7 +267,7 @@ const Blog = () => {
             >
               <path d="M2 11h5v2H2zm15 0h5v2h-5zm-6 6h2v5h-2zm0-15h2v5h-2zM4.222 5.636l1.414-1.414 3.536 3.536-1.414 1.414zm15.556 12.728-1.414 1.414-3.536-3.536 1.414-1.414zm-12.02-3.536 1.414 1.414-3.536 3.536-1.414-1.414zm7.07-7.071 3.536-3.535 1.414 1.415-3.536 3.535z"></path>
             </svg>
-            {t("blog.read")}
+            {t("blogBlog.read")}
           </button>
         </div>
       </div>

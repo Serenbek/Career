@@ -183,5 +183,72 @@
     "partners": "Partners",
     "emplayee": "Emplayee",
     "our": "Our Team"
+  },
+  "benefits": {
+    "title": "Other Benefits",
+    "bonus": "Bonus",
+    "free": "Free",
+    "travel": "travel",
+    "train": "Training",
+    "dev": "Training",
+    "care": "Health care"
+  },
+  "share":{
+    "sh": "Share:"
+  },
+  "locations":{
+    "loc": "Location"
+  }, 
+   "skills":{
+    "job": "Job Skills",
+    "photo": "Photography",
+    "design": "Design",
+    "art": "Art",
+    "history": "Histoty",
+    "useums": "Museums",
+    "creativ": "Creativity",
+    "artHistory": "Art History"
+  },
+  "sideBar":{
+    "drop": "Dropbox",
+    "view": "View Company Profile",
+    "jobs": "Jobs From This Company",
+    "market": "Marketing Coordinator",
+    "dog": "Dog Trainer",
+    "nursing": "Nursing Assistant",
+    "date": "Expiration date May 19, 2026",
+    "adv": "Advertisement",
+    "donec": "Duis leo. Donec orci lectus, aliquam ut, faucibus non",
+    "go": "Go Now"
+  },
+  "side": {
+    "title1": "Date Posted",
+    "title2": "Expiration date",
+    "title3": "Offered Salary (month)",
+    "title4": "Experience",
+    "title5": "Level",
+    "title6": "Language",
+    "desc1": " October 24, 2018",
+    "desc2": "Expires in 7 days",
+    "desc3": "$1,250 ~ $3000",
+    "desc4": "3 Years",
+    "desc5": "Intern/Student",
+    "desc6": "Any"
+  },
+  "map":{
+    "get": "Get In Touch",
+    "p": "We'd love to talk about how we can help you.",
+    "mail": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "follow": "Follow Us"
+  },
+  "form":{
+    "drop": "Drop us a line",
+    "p": "We normally respond within 2 business days",
+    "send": "Send Message",
+    "name": "Name",
+    "message":"Message",
+    "subject": "Subject"
   }
 }

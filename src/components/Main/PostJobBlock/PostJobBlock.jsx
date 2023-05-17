@@ -8,7 +8,7 @@ import Header from '../../Header/Header';
 
 
 function PostJobBlock() {
-    const { i18n,t } = useTranslation();
+    const { t } = useTranslation();
 
     return (
         <div className={css.background}>

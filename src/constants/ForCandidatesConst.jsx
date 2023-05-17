@@ -1,7 +1,6 @@
 import signup from '../assets/images/ForCandidates/ic_signup_job.svg'
 import user from '../assets/images/ForCandidates/Vector.svg'
 import search from '../assets/images/ForCandidates/ic_search_job.svg'
-import { useTranslation } from 'react-i18next'
 
 export const ForCandidatesConst = [
     {

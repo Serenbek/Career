@@ -12,7 +12,7 @@ const CareerDetails = () => {
 			</div>
 			<Hero />
 			<Description />
-			{/* <Footer /> */}
+			<Footer />
 		</div>
 	)
 }
