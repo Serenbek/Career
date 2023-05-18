@@ -15,7 +15,7 @@ import Header from '../components/Header/Header';
 import HomeMain from '../components/Main/HomeMain/HomeMain';
 
 
-function HomePage(props) {
+function HomePage() {
     return (
       <>
         <div className="container">
@@ -35,6 +35,7 @@ function HomePage(props) {
           <ClientBlock />
           <Latest />
           <DownloadAppBlock />
+          <GlobalConnectionBlock />
         </div>
         <GetBlockJob />
         <Footer />

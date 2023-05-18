@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit"
 
 const initialState = {
 	cartItems: [],
-	favorites:[]
+	favorites:[],
 }
 
 export const CartSlice = createSlice({

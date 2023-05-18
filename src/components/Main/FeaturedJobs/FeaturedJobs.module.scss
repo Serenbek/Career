@@ -151,6 +151,9 @@ transition: all 500ms;
 		}
 	
 	}
+		&:hover {
+			box-shadow: 2px -3px 16px 13px rgba(160, 158, 171);
+		}
 }
 
 

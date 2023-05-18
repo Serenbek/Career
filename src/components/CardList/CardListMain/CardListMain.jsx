@@ -24,6 +24,8 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 const CardListMain = () => {
+    const search = useSelector((state) => state.search.value);
+    console.log(search)
   const dispatch = useDispatch();
   const cart = useSelector((state) => state.reducer.cartItems);
   const favorites = useSelector((state) => state.reducer.favorites);
@@ -80,53 +82,60 @@ const CardListMain = () => {
         </svg>
       </Link>
       <div className={scss.wrapper}>
-        {currentItems.map((card) => (
-          <div
-            key={card.id}
-            className={cn(scss.card, {
-              card: isDark,
-            })}>
-            <header className={scss.card_header}>
-              <img src={card.img} alt="" />
-              <button>
-                <img
-                  className={scss.header_like}
-                  onClick={() => {
-                    dispatch(addToCart(card));
-                    handleFavorite(card.id);
-                  }}
-                  src={favorites ? userlike : favorite}
-                  alt={card.title}
-                />
-              </button>
-            </header>
-            <section className={scss.card_body}>
-              <h3
-                className={cn({
-                  dark_text: isDark,
-                })}>
-                {t(card.title)}
-              </h3>
-              <h4>{card.comp}</h4>
-              <h5>
-                <img src={local} alt={card.title} />
-                New York
-              </h5>
-              <p>{t("cart.post")}</p>
-            </section>
-            <footer className={scss.card_foot}>
-              <div className="foot_left">
-                <img src={level} alt="" /> {t("cart.exp")} <br />
-                <img src={cash} alt="" /> $1,250 - $3000
-              </div>
-              <div className="foot_right">
-                <img src={clock} alt="" /> {t("cart.part")}
-                <br />
-                <img src={user} alt="" /> Freelance
-              </div>
-            </footer>
-          </div>
-        ))}
+        {currentItems
+          .filter((item) => {
+            if (item.title.toLocaleLowerCase().includes(search)) {
+              return true;
+            }
+            return false;
+          })
+          .map((card) => (
+            <div
+              key={card.id}
+              className={cn(scss.card, {
+                card: isDark,
+              })}>
+              <header className={scss.card_header}>
+                <img src={card.img} alt="" />
+                <button>
+                  <img
+                    className={scss.header_like}
+                    onClick={() => {
+                      dispatch(addToCart(card));
+                      handleFavorite(card.id);
+                    }}
+                    src={favorites ? userlike : favorite}
+                    alt={card.title}
+                  />
+                </button>
+              </header>
+              <section className={scss.card_body}>
+                <h3
+                  className={cn({
+                    dark_text: isDark,
+                  })}>
+                  {t(card.title)}
+                </h3>
+                <h4>{card.comp}</h4>
+                <h5>
+                  <img src={local} alt={card.title} />
+                  New York
+                </h5>
+                <p>{t("cart.post")}</p>
+              </section>
+              <footer className={scss.card_foot}>
+                <div className="foot_left">
+                  <img src={level} alt="" /> {t("cart.exp")} <br />
+                  <img src={cash} alt="" /> $1,250 - $3000
+                </div>
+                <div className="foot_right">
+                  <img src={clock} alt="" /> {t("cart.part")}
+                  <br />
+                  <img src={user} alt="" /> Freelance
+                </div>
+              </footer>
+            </div>
+          ))}
       </div>
       <ReactPaginate
         breakLabel="..."

@@ -8,7 +8,7 @@ import level from "../../../assets/listCard/exp.png";
 import cash from "../../../assets/listCard/cash.png";
 import user from "../../../assets/listCard/user.png";
 import clock from "../../../assets/listCard/clock.png";
-import userlike from "../../../assets/listCard/like.png";
+// import userlike from "../../../assets/listCard/like.png";
 import right from '../../../assets/icon/arrowRight.png'
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";

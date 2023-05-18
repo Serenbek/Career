@@ -1,17 +1,24 @@
 import scss from "./CardInput.module.scss";
-import search from "../../../assets/input_icon/search.png";
+import searchImg from "../../../assets/input_icon/search.png";
 import { useTranslation } from "react-i18next";
-
+import { setSearch } from "../../../redux/slices/SearchSLice";
 import filter from "../../../assets/input_icon/filter.png";
+import { useDispatch, useSelector } from "react-redux";
 
 const CardInputs = () => {
   const { t } = useTranslation();
-
+ const dispatch = useDispatch();
+ const search = useSelector((state) => state.search.value);
   return (
     <div className={scss.filter}>
       <section className={scss.input}>
         <div className={scss.inp_job}>
-          <input type="text" placeholder={t("cardInput.job")} />
+          <input
+            type="text"
+            value={search}
+            onChange={(e) => dispatch(setSearch(e.target.value))}
+            placeholder={t("cardInput.job")}
+          />
         </div>
 
         <div className={scss.inp_cat}>
@@ -21,7 +28,7 @@ const CardInputs = () => {
           <input type="text" placeholder={t("cardInput.log")} />
         </div>
         <button>
-          <img src={search} alt="search" />
+          <img src={searchImg} alt="search" />
         </button>
       </section>
       <section className={scss.drop_content}>
