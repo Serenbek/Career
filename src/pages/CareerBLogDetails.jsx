@@ -9,8 +9,8 @@ const CareerBLogDetails = () => {
     <div className="container">
       <Header />
       <BlogDetails/>
-    </div>
       <Latest/>
+    </div>
     <Footer/>
     </>
   ); 

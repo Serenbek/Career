@@ -10,9 +10,10 @@ const CareerContact = () => {
       <div className="container">
         <Header/>
       </div>
-      <Form/>
       <Maps/>
       <Footer/>
+      <Form/>
+
     </div>
   );
 }

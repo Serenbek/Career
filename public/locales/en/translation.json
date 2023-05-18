@@ -131,28 +131,33 @@
     "part": "Part time"
   },
   "blogBlog": {
-  "TBSTcli1": "Marketing",
-  "TBSTcli2": "Community",
-  "TBSTcli3": "Tutorials",
-  "TBSTcli4": "Business",
-  "TBSTcli5": "Management",
-  "blog1": "Understanding color theory: the color wheel and finding...",
-  "blog2": "How to design a product that can grow itself 10x in year",
-  "blog3": "Any mechanical keyboard enthusiasts in design?",
-  "blog4": "Yo Reddit! What’s a small thing that anyone can do at nearly...ign?",
-  "blogul1": "Marketing",
-  "blogul2": "Devolopment",
-  "blogul3": "Banking",
-  "blogul4": "HR&Recruting",
-  "blogul5": "Design",
-  "blogul6": "Management",
-  "blogul7": "Business",
-  "blogul8": "Community",
-  "blogul9": "Tutorials",
-  "adv": "Advertisement",
-  "quotes": "With great power comes great responsibility",
-  "gonow": "Go now"
-},
+    "postMay": "February 28, 2018",
+    "minread": "20 min",
+    "TBSTch4": "Categories",
+    "recen": "Recent Posts",
+    "tags": "Popular Tags",
+    "TBSTcli1": "Marketing",
+    "TBSTcli2": "Community",
+    "TBSTcli3": "Tutorials",
+    "TBSTcli4": "Business",
+    "TBSTcli5": "Management",
+    "blog1": "Understanding color theory: the color wheel and finding...",
+    "blog2": "How to design a product that can grow itself 10x in year",
+    "blog3": "Any mechanical keyboard enthusiasts in design?",
+    "blog4": "Yo Reddit! What’s a small thing that anyone can do at nearly...ign?",
+    "blogul1": "Marketing",
+    "blogul2": "Devolopment",
+    "blogul3": "Banking",
+    "blogul4": "HR&Recruting",
+    "blogul5": "Design",
+    "blogul6": "Management",
+    "blogul7": "Business",
+    "blogul8": "Community",
+    "blogul9": "Tutorials",
+    "adv": "Advertisement",
+    "quotes": "With great power comes great responsibility",
+    "gonow": "Go now"
+  },
   "blog": {
     "title": "How to Maximize Your ROI Through Scientific SEM?",
     "post1": "The lower a person's soul, the higher he turns up his nose.He stretches his nose to where his soul has not grown up.",
@@ -174,24 +179,6 @@
     "home": "Home",
     "blog": "Blog"
   },
-  "about":{
-    "subtitle":  "ABOUT US",
-  "title": "We Make The Best For All Our Customers.",
-  "agency": "Our Agency Has Been",
-  "agencyinfo": "Hello. Our agency has been present for over 20 years. We make the best for all our customers.",
-  "jobs": "Jobs",
-  "succ":"Successful Hiring",
-  "partners": "Partners",
-  "emplayee": "Emplayee",
-  "our": "Our Team"
-  },
-  "home":{
-"title":"Get The",
-"career": "Career",
-"title1": "You Deserve",
-"inp":"Job title, keywords...",
-"inp2": "Locations"
-  },
   "about": {
     "subtitle": "ABOUT US",
     "title": "We Make The Best For All Our Customers.",
@@ -203,6 +190,37 @@
     "emplayee": "Emplayee",
     "our": "Our Team"
   },
+  "home": {
+    "title": "Get The",
+    "career": "Career",
+    "title1": "You Deserve",
+    "inp": "Job title, keywords...",
+    "inp2": "Locations"
+  },
+  "about ": {
+    "subtitle": "ABOUT US",
+    "title": "We Make The Best For All Our Customers.",
+    "agency": "Our Agency Has Been",
+    "agencyinfo": "Hello. Our agency has been present for over 20 years. We make the best for all our customers.",
+    "jobs": "Jobs",
+    "succ": "Successful Hiring",
+    "partners": "Partners",
+    "emplayee": "Emplayee",
+    "our": "Our Team"
+  },
+  "desc": {
+    "title": "Job Description",
+    "tt": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    "li1": "Working with agency for design drawing detail, quotation and local production",
+    "li2": "Produce window displays, signs, interior displays, floor plans and special promotions displays",
+    "li3": "Change displays to promote new product launches and reflect festive or seasonal themes",
+    "li4": "Planning and executing the open/renovation/ closing store procedure",
+    "li5": "Follow‐up store maintenance procedure and keep updating SKU In & Out ",
+    "li6": "Monitor costs and work within budget",
+    "li7": "Liaise with suppliers and source elements ",
+    "here": "Why You'll Love Working Here",
+    "p": "Key Responsibilities"
+  },
   "benefits": {
     "title": "Other Benefits",
     "bonus": "Bonus",
@@ -212,13 +230,13 @@
     "dev": "Training",
     "care": "Health care"
   },
-  "share":{
+  "share": {
     "sh": "Share:"
   },
-  "locations":{
+  "locations": {
     "loc": "Location"
-  }, 
-   "skills":{
+  },
+  "skills": {
     "job": "Job Skills",
     "photo": "Photography",
     "design": "Design",
@@ -228,7 +246,7 @@
     "creativ": "Creativity",
     "artHistory": "Art History"
   },
-  "sideBar":{
+  "sideBar": {
     "drop": "Dropbox",
     "view": "View Company Profile",
     "jobs": "Jobs From This Company",
@@ -254,7 +272,7 @@
     "desc5": "Intern/Student",
     "desc6": "Any"
   },
-  "map":{
+  "map": {
     "get": "Get In Touch",
     "p": "We'd love to talk about how we can help you.",
     "mail": "Email",
@@ -262,12 +280,12 @@
     "address": "Address",
     "follow": "Follow Us"
   },
-  "form":{
+  "form": {
     "drop": "Drop us a line",
     "p": "We normally respond within 2 business days",
     "send": "Send Message",
     "name": "Name",
-    "message":"Message",
+    "message": "Message",
     "subject": "Subject"
-  }}
-
+  }
+}
