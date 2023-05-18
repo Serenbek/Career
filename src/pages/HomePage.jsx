@@ -11,24 +11,33 @@ import TopCompanies from '../components/Main/TopCompanies/TopCompanies';
 import Say from '../components/Main/Say/Say';
 import Footer from '../components/Footer/Footer';
 import FeaturedJobs from '../components/Main/FeaturedJobs/FeaturedJobs';
+import Header from '../components/Header/Header';
+import HomeMain from '../components/Main/HomeMain/HomeMain';
 
 
-function HomePage(props) {
+function HomePage() {
     return (
       <>
         <div className="container">
-          <PostJobBlock />
+          <Header />
+        </div>
+        <HomeMain />
+        <div className="container">
           <ForCandidates />
           <FeaturedJobs />
           <TopCompanies />
           <HotCategories />
+        </div>
+          <GlobalConnectionBlock />
+          <PostJobBlock />
           <Say />
+        <div className='container'>
           <ClientBlock />
           <Latest />
           <DownloadAppBlock />
           <GlobalConnectionBlock />
         </div>
-          <GetBlockJob />
+        <GetBlockJob />
         <Footer />
       </>
     );

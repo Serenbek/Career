@@ -3,6 +3,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
+	justify-content: center;
 }
 
 .header{
@@ -13,12 +14,14 @@
 	justify-content: center;
 	.header_info{
 width: 20%;
-		font-style: normal;
-			font-weight: 600;
-			font-size: 12px;
-			line-height: 20px;
-		text-transform: uppercase;
-			color: #919EAB;
+			p {
+					font-style: normal;
+					font-weight: 600;
+					font-size: 12px;
+					line-height: 20px;
+					text-transform: uppercase;
+					color: #919EAB;
+				}
 	}
 	.header_title{
 		justify-self: flex-end;
@@ -32,6 +35,7 @@ width: 20%;
 			line-height: 54px;
 			color: #212B36;
 		}
+		
 		
 	}
 }
@@ -147,10 +151,9 @@ transition: all 500ms;
 		}
 	
 	}
-&:hover {
-	box-shadow: 2px -3px 16px 13px rgba(160, 158, 171);
-	transform: scale(1.1);
-}
+		&:hover {
+			box-shadow: 2px -3px 16px 13px rgba(160, 158, 171);
+		}
 }
 
 
@@ -194,6 +197,8 @@ transition: all 500ms;
 align-items: center;
 .header_info {
 	text-align: center;
+	width: 90%;
+		margin-bottom: 15px;
 	}
 .header_title{
 		h1{

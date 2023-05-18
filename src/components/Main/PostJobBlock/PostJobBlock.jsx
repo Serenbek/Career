@@ -3,7 +3,6 @@ import css from './PostJobBlock.module.scss'
 import mainImg from '../../../assets/images/recruitImgs/recruitMainImg.svg'
 import { useTranslation } from "react-i18next";
 import file from "../../../assets/images/recruitImgs/fileImg.svg";
-import Header from '../../Header/Header';
 
 
 
@@ -12,7 +11,7 @@ function PostJobBlock() {
 
     return (
         <div className={css.background}>
-                <Header/>
+              
 
                 <div className={css.wrapper}>
                     <div className={css.left}>

@@ -151,7 +151,8 @@
   "blogul9": "Tutorials",
   "adv": "Advertisement",
   "quotes": "With great power comes great responsibility",
-  "gonow": "Go now"},
+  "gonow": "Go now"
+},
   "blog": {
     "title": "How to Maximize Your ROI Through Scientific SEM?",
     "post1": "The lower a person's soul, the higher he turns up his nose.He stretches his nose to where his soul has not grown up.",
@@ -172,6 +173,24 @@
     "curs": "Curator of Marketing Course",
     "home": "Home",
     "blog": "Blog"
+  },
+  "about":{
+    "subtitle":  "ABOUT US",
+  "title": "We Make The Best For All Our Customers.",
+  "agency": "Our Agency Has Been",
+  "agencyinfo": "Hello. Our agency has been present for over 20 years. We make the best for all our customers.",
+  "jobs": "Jobs",
+  "succ":"Successful Hiring",
+  "partners": "Partners",
+  "emplayee": "Emplayee",
+  "our": "Our Team"
+  },
+  "home":{
+"title":"Get The",
+"career": "Career",
+"title1": "You Deserve",
+"inp":"Job title, keywords...",
+"inp2": "Locations"
   },
   "about": {
     "subtitle": "ABOUT US",
@@ -250,5 +269,5 @@
     "name": "Name",
     "message":"Message",
     "subject": "Subject"
-  }
-}
+  }}
+

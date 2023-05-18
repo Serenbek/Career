@@ -4,7 +4,7 @@ import storage from 'redux-persist/lib/storage';
 
 import theme from './slices/ThemeSlice'
 import reducer from './slices/CartSlice'
-
+import search from './slices/SearchSLice'
 
 const persistConfig = {
 	key: 'root',
@@ -13,6 +13,7 @@ const persistConfig = {
 const rootReducer = combineReducers({
 	theme,
 	reducer,
+	search
 });
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
