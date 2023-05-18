@@ -1,5 +1,4 @@
 import React from 'react';
-import { Map, Placemark, YMaps } from "@pbe/react-yandex-maps";
 import scss from './Maps.module.scss'
 import inn from '../../../assets/images/MapsImg/inn.svg'
 import fc from '../../../assets/images/MapsImg/fc.svg'

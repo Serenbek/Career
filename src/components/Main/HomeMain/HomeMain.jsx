@@ -13,7 +13,7 @@ import brand2 from '../../../assets/mainImg/brand_netflix.png'
 import brand3 from '../../../assets/mainImg/brand_slack.png'
 import brand4 from '../../../assets/mainImg/brand_spotify.png'
 import search from "../../../assets/input_icon/search.png";
-import useTheme from '../../../hooks/useTheme'
+// import useTheme from '../../../hooks/useTheme'
 
 
 const HomeMain = () => {
